@@ -8,6 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/OutdoorsScene.unity
     guid: 8124e5870f4fd4c779e7a5f994e84ad1
+  - enabled: 1
+    path: Assets/Group Stuff/Teo/TeoScene.unity
+    guid: ceba9eb8116e33a4d918452d8069bed8
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 90b742482fd13ab41a910bde730388d7, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 35845fe01580c41289b024647b1d1c53, type: 3}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: cf30e91bf83bd784cafb0c79566aa830, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: aa2e097afda3a73449e8bd5c72e21ab5, type: 2}
   m_UseUCBPForAssetBundles: 0
