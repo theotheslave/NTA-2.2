@@ -155,4 +155,5 @@ MonoBehaviour:
   minScale: 0.5
   growSpeed: 1
   holdTime: 4
-  objectsToGrow: []
+  objectsToGrow:
+  - {fileID: 0}
