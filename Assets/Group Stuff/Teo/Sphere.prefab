@@ -13,10 +13,9 @@ GameObject:
   - component: {fileID: 582933425554600299}
   - component: {fileID: 6035257457250114672}
   - component: {fileID: 2960474950762477754}
-  - component: {fileID: -3281800312717307522}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: Ball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -104,7 +103,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -137,23 +136,3 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-3281800312717307522
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2779364651442416312}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ed44f4a7523fc84ea28e89c8d3e3087, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetCenter: {fileID: 0}
-  moveSpeed: 2
-  maxScale: 2
-  minScale: 0.5
-  growSpeed: 1
-  holdTime: 4
-  objectsToGrow:
-  - {fileID: 0}

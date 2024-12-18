@@ -3,7 +3,7 @@ using System.Collections.Generic;
 public class BallCentre : MonoBehaviour
 {
       [SerializeField] private Transform targetCenter;       // The center target
-    [SerializeField] private float moveSpeed = 2f;         // Speed of movement toward the center
+    [SerializeField] private float moveSpeed = 5f;         // Speed of movement toward the center
     [SerializeField] private float maxScale = 2f;          // Maximum scale for growth
     [SerializeField] private float minScale = 0.5f;        // Minimum scale for shrinkage
     [SerializeField] private float growSpeed = 1f;         // Speed of growth/shrinkage
@@ -26,12 +26,14 @@ public class BallCentre : MonoBehaviour
     {
         if (isMovingToCenter && !hasReachedCenter)
         {
+            Debug.Log("Moving toward the center...");
             // Move the object toward the center
             transform.position = Vector3.MoveTowards(transform.position, targetCenter.position, moveSpeed * Time.deltaTime);
 
             // Check if the object has reached the center
             if (Vector3.Distance(transform.position, targetCenter.position) < 0.1f)
             {
+                Debug.Log("Reached the center!");
                 hasReachedCenter = true; // Mark as reached
                 isMovingToCenter = false; // Stop moving
                 TriggerGrowthOnSpecificObjects(); // Trigger specific objects to grow
@@ -40,6 +42,7 @@ public class BallCentre : MonoBehaviour
 
         if (hasReachedCenter)
         {
+            Debug.Log("Handling scaling...");
             HandleScaling(); // Handle grow/shrink behavior for the center object
         }
     }
@@ -92,8 +95,10 @@ public class BallCentre : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log($"Collided with: {other.name}");
         if (other.CompareTag("Place")) // Trigger the movement to the center
         {
+            Debug.Log("Trigger activated!");
             isMovingToCenter = true; // Start moving toward the center
         }
     }

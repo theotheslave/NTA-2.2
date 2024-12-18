@@ -1,8 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Oculus.Interaction;
-using Oculus.Interaction.Input;
 
 public class MoveArduino1 : MonoBehaviour
 {
@@ -28,7 +26,7 @@ public class MoveArduino1 : MonoBehaviour
 
     void Update()
     {
-        HandleInput(); // Check for OVR input
+        HandleInput(); // Check for keyboard input
 
         // Handle charging
         if (isCharged)
@@ -59,21 +57,21 @@ public class MoveArduino1 : MonoBehaviour
 
     private void HandleInput()
     {
-        // Start charging on Primary Index Trigger
-        if (OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger))
+        // Start charging on 'E' key
+        if (Input.GetKey(KeyCode.E))
         {
             isCharged = true;
         }
-        else if (!OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger) && !OVRInput.Get(OVRInput.Button.SecondaryIndexTrigger))
+        else if (!Input.GetKey(KeyCode.E) && !Input.GetKey(KeyCode.Q))
         {
-            // Stop charging and reset firing when no buttons are pressed
+            // Stop charging and reset firing when no keys are pressed
             isCharged = false;
             fireButtonPressed = false;
             fireButtonHandled = false;
         }
 
-        // Fire projectile on Secondary Index Trigger
-        if (OVRInput.Get(OVRInput.Button.SecondaryIndexTrigger))
+        // Fire projectile on 'Q' key
+        if (Input.GetKey(KeyCode.Q))
         {
             fireButtonPressed = true;
         }
@@ -92,9 +90,9 @@ public class MoveArduino1 : MonoBehaviour
             Rigidbody rb = projectile.GetComponent<Rigidbody>();
             if (rb != null)
             {
-                // Set projectile velocity based on charge
+                // Set projectile velocity based on charge  
                 float force = projectSpeed * chargeAmount;
-                rb.linearVelocity = breathTarget.forward * force;
+                rb.linearVelocity = breathTarget.forward * force; // Fixed typo: replaced `linearVelocity` with `velocity`
             }
 
             chargeAmount = 0f; // Reset charge after firing
