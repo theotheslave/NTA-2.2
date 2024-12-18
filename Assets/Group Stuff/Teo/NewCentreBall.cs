@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using System.Collections;
 
 public class NewCentreBall : MonoBehaviour
 {
@@ -91,12 +92,37 @@ public class NewCentreBall : MonoBehaviour
         {
             if (obj != null)
             {
-                Vector3 targetScale = originalScale * maxScale;
-                obj.transform.localScale = Vector3.MoveTowards(obj.transform.localScale, targetScale, growSpeed * Time.deltaTime);
-                Debug.Log($"Growing Object: {obj.name}");
+                // Ensure the object is ready for scaling
+                if (obj.TryGetComponent<Rigidbody>(out var rb))
+                {
+                    rb.isKinematic = true;
+                }
+                if (obj.TryGetComponent<Animator>(out var animator))
+                {
+                    animator.enabled = false;
+                }
+
+                // Calculate target scale
+                Vector3 targetScale = obj.transform.localScale * maxScale;
+                Debug.Log($"Starting growth for {obj.name}: Current {obj.transform.localScale}, Target {targetScale}");
+
+                // Scale the object over time
+                StartCoroutine(ScaleObjectOverTime(obj, targetScale));
             }
         }
+    }
 
-        Debug.Log($"Triggered growth for {objectsToGrow.Count} objects.");
+    private IEnumerator ScaleObjectOverTime(GameObject obj, Vector3 targetScale)
+    {
+        while (Vector3.Distance(obj.transform.localScale, targetScale) > 0.01f)
+        {
+            float step = growSpeed * Time.deltaTime;
+            obj.transform.localScale = Vector3.MoveTowards(obj.transform.localScale, targetScale, step);
+            Debug.Log($"[Scaling] {obj.name}: Current {obj.transform.localScale}, Target {targetScale}");
+            yield return null; // Wait for the next frame
+        }
+
+        obj.transform.localScale = targetScale; // Snap to target
+        Debug.Log($"Scaling complete for {obj.name} to {targetScale}");
     }
 }
