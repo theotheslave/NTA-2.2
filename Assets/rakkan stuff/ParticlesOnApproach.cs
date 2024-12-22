@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ToggleParticleOnTrigger : MonoBehaviour
 {
-    public ParticleSystem particleSystem;
+    public ParticleSystem particleStuff;
 
     private bool isParticlePlaying = false;
 
@@ -12,14 +12,14 @@ public class ToggleParticleOnTrigger : MonoBehaviour
 
     void Start()
     {
-        if (particleSystem == null)
+        if (particleStuff == null)
         {
-            particleSystem = GetComponent<ParticleSystem>();
+            particleStuff = GetComponent<ParticleSystem>();
         }
 
-        if (particleSystem != null && particleSystem.isPlaying)
+        if (particleStuff != null && particleStuff.isPlaying)
         {
-            particleSystem.Stop();
+            particleStuff.Stop();
         }
     }
 
@@ -62,9 +62,9 @@ public class ToggleParticleOnTrigger : MonoBehaviour
 
     private void PlayParticles()
     {
-        if (particleSystem != null)
+        if (particleStuff != null)
         {
-            particleSystem.Play();
+            particleStuff.Play();
             isParticlePlaying = true;
             Debug.Log("Particle system started.");
         }
@@ -72,9 +72,9 @@ public class ToggleParticleOnTrigger : MonoBehaviour
 
     private void StopParticles()
     {
-        if (particleSystem != null)
+        if (particleStuff != null)
         {
-            particleSystem.Stop();
+            particleStuff.Stop();
             isParticlePlaying = false;
             Debug.Log("Particle system stopped.");
         }
