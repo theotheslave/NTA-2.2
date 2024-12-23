@@ -56,12 +56,16 @@ public class Callibration : MonoBehaviour
     private void HandleYPosition(float relativeY)
     {
         
-        if (relativeY > 1f)
+        if (relativeY > 0.5f)
         {
+            OVRInput.SetControllerVibration(1.0f, 0.5f, OVRInput.Controller.RTouch);
+
             Debug.Log("Object is above 1 unit relative to origin.");
         }
-        else if (relativeY < -1f)
+        else if (relativeY <= 0f)
         {
+            OVRInput.SetControllerVibration(0f, 0f, OVRInput.Controller.RTouch);
+
             Debug.Log("Object is below -1 unit relative to origin.");
         }
     }
