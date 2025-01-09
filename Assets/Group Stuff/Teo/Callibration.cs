@@ -4,11 +4,11 @@ using Oculus.Interaction;
 using Oculus.Interaction.Input;
 public class Callibration : MonoBehaviour
 {
-    private Vector3 originPoint; // Stores the new origin point
-    private bool isCalibrated = false; // Ensures calibration happens only when triggered
-    private bool isCalibrating = false; // Prevents multiple calibrations during the delay
+    private Vector3 originPoint; 
+    private bool isCalibrated = false; 
+    private bool isCalibrating = false; 
 
-    public float calibrationDelay = 2f; // Delay time in seconds
+    public float calibrationDelay = 2f; 
 
     void Update()
     {
@@ -16,16 +16,17 @@ public class Callibration : MonoBehaviour
         if (OVRInput.Get(OVRInput.Button.SecondaryIndexTrigger) && !isCalibrating)
         {
             StartCoroutine(CalibrateOriginWithDelay());
+
           
         }
 
 
         if (isCalibrated)
         {
-            // Get the relative position
+            
             Vector3 relativePosition = GetRelativePosition();
 
-            // Example: Perform actions based on Y position
+            
             HandleYPosition(relativePosition.y);
         }
     }
@@ -34,12 +35,12 @@ public class Callibration : MonoBehaviour
     {
         isCalibrating = true;
 
-        // Optional feedback: Notify user calibration is starting
+        
         OVRInput.SetControllerVibration(1.0f, 0.5f, OVRInput.Controller.RTouch);
         Debug.Log("Calibration starting...");
         yield return new WaitForSeconds(calibrationDelay);
 
-        // Set the current position as the new origin
+        // new orig pos 
         originPoint = transform.position;
         isCalibrated = true;
         isCalibrating = false;
@@ -56,7 +57,7 @@ public class Callibration : MonoBehaviour
     private void HandleYPosition(float relativeY)
     {
         
-        if (relativeY > 0.5f)
+        if (relativeY > 0.005f)
         {
             OVRInput.SetControllerVibration(1.0f, 0.5f, OVRInput.Controller.RTouch);
 
