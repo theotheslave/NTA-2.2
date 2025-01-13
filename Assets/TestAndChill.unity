@@ -7974,6 +7974,7 @@ Transform:
   - {fileID: 1484575735}
   - {fileID: 233321607}
   - {fileID: 14385252}
+  - {fileID: 1194642602}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1106855519
@@ -8793,10 +8794,10 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: efca6a30fd75f754c9d46b24b11088db, type: 3}
+  m_Resource: {fileID: 8300000, guid: efca6a30fd75f754c9d46b24b11088db, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.507
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -8840,7 +8841,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -8911,7 +8912,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1106855518}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1197690952
 GameObject:
@@ -17185,4 +17186,3 @@ SceneRoots:
   - {fileID: 116669736}
   - {fileID: 1172754559}
   - {fileID: 1246982152}
-  - {fileID: 1194642602}
