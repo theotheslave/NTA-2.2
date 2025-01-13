@@ -1,33 +1,40 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 using Oculus.Interaction;
 using Oculus.Interaction.Input;
-public class Callibration : MonoBehaviour
+public class Calibration : MonoBehaviour
 {
-    private Vector3 originPoint; 
-    private bool isCalibrated = false; 
-    private bool isCalibrating = false; 
+    private Vector3 originPoint;
+    private bool isCalibrated = false;
+    private bool isCalibrating = false;
 
-    public float calibrationDelay = 2f; 
+    public float calibrationDelay = 2f; // Duration for calibration
+    [SerializeField] private Slider calibrationSlider; // Reference to the Slider UI
+
+    public bool IsCalibrated => isCalibrated; // Public property to check calibration status
+    public float RelativeYPosition => transform.position.y - originPoint.y;
+
+    private Coroutine calibrationCoroutine;
 
     void Update()
     {
-        // Check if the Oculus trigger button is pressed and start calibration if not already calibrating
-        if (OVRInput.Get(OVRInput.Button.SecondaryIndexTrigger) && !isCalibrating)
+        // Start calibration on button press
+        if (OVRInput.Get(OVRInput.Button.SecondaryIndexTrigger))
         {
-            StartCoroutine(CalibrateOriginWithDelay());
-
-          
+            if (!isCalibrating)
+            {
+                calibrationCoroutine = StartCoroutine(CalibrateOriginWithDelay());
+            }
         }
-
-
-        if (isCalibrated)
+        else
         {
-            
-            Vector3 relativePosition = GetRelativePosition();
-
-            
-            HandleYPosition(relativePosition.y);
+            // Stop calibration if the button is released
+            if (isCalibrating && calibrationCoroutine != null)
+            {
+                StopCoroutine(calibrationCoroutine);
+                ResetCalibrationUI();
+            }
         }
     }
 
@@ -35,39 +42,44 @@ public class Callibration : MonoBehaviour
     {
         isCalibrating = true;
 
-        
-        OVRInput.SetControllerVibration(1.0f, 0.5f, OVRInput.Controller.RTouch);
-        Debug.Log("Calibration starting...");
-        yield return new WaitForSeconds(calibrationDelay);
+        // Reset the slider value
+        calibrationSlider.value = 0;
 
-        // new orig pos 
+        float elapsedTime = 0f;
+
+        while (elapsedTime < calibrationDelay)
+        {
+            // If the trigger button is released, stop calibration
+            if (!OVRInput.Get(OVRInput.Button.SecondaryIndexTrigger))
+            {
+                ResetCalibrationUI();
+                yield break;
+            }
+
+            // Update the slider value
+            elapsedTime += Time.deltaTime;
+            calibrationSlider.value = elapsedTime / calibrationDelay; // Normalized value (0 to 1)
+            yield return null;
+        }
+
+        // Set origin point
         originPoint = transform.position;
         isCalibrated = true;
         isCalibrating = false;
 
+        // Ensure the slider is filled
+        calibrationSlider.value = 1;
+
         Debug.Log($"Origin calibrated at: {originPoint}");
+
+        // Optional: Add feedback after calibration is complete
+        OVRInput.SetControllerVibration(0f, 0f, OVRInput.Controller.RTouch); // Stop vibration
     }
 
-    private Vector3 GetRelativePosition()
+    private void ResetCalibrationUI()
     {
-        // Calculate the relative position based on the origin
-        return transform.position - originPoint;
-    }
-
-    private void HandleYPosition(float relativeY)
-    {
-        
-        if (relativeY > 0.005f)
-        {
-            OVRInput.SetControllerVibration(1.0f, 0.5f, OVRInput.Controller.RTouch);
-
-            Debug.Log("Object is above 1 unit relative to origin.");
-        }
-        else if (relativeY <= 0f)
-        {
-            OVRInput.SetControllerVibration(0f, 0f, OVRInput.Controller.RTouch);
-
-            Debug.Log("Object is below -1 unit relative to origin.");
-        }
+        isCalibrating = false;
+        calibrationSlider.value = 0; // Reset the slider
+        Debug.Log("Calibration canceled.");
     }
 }
