@@ -26,12 +26,13 @@ public class PausedBlinkingOpacity : MonoBehaviour
 
         for (int i = 0; i < repeatCount; i++)
         {
-            // Determine the target opacity for this transition
+            // Alternate between max and min opacity
+            float startOpacity = (i % 2 == 0) ? minOpacity : maxOpacity;
             float targetOpacity = (i % 2 == 0) ? maxOpacity : minOpacity;
 
             // Schedule the opacity change
-            LeanTween.value(gameObject, UpdateOpacity, spriteRenderer.color.a, targetOpacity, timePerChange)
-                .setEase(LeanTweenType.easeInOutSine)  // Smooth transition for fading in and out
+            LeanTween.value(gameObject, UpdateOpacity, startOpacity, targetOpacity, timePerChange)
+                .setEase(LeanTweenType.easeInOutSine)  // Smooth transition for both directions
                 .setDelay(i * timePerChange);          // Stagger each transition
         }
 
