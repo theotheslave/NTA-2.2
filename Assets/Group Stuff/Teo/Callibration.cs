@@ -22,6 +22,7 @@ public class Calibration : MonoBehaviour
         // Start calibration on button press
         if (OVRInput.Get(OVRInput.Button.SecondaryIndexTrigger))
         {
+            Debug.Log("Start Calibration");
             if (!isCalibrating)
             {
                 calibrationCoroutine = StartCoroutine(CalibrateOriginWithDelay());
@@ -67,13 +68,14 @@ public class Calibration : MonoBehaviour
         isCalibrated = true;
         isCalibrating = false;
 
+
         // Ensure the slider is filled
         calibrationSlider.value = 1;
 
         Debug.Log($"Origin calibrated at: {originPoint}");
 
         // Optional: Add feedback after calibration is complete
-        OVRInput.SetControllerVibration(0f, 0f, OVRInput.Controller.RTouch); // Stop vibration
+        OVRInput.SetControllerVibration(1f, 1f, OVRInput.Controller.RTouch); // Stop vibration
     }
 
     private void ResetCalibrationUI()

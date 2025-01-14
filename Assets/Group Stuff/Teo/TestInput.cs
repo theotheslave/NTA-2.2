@@ -14,7 +14,7 @@ public class TestInput : MonoBehaviour
     {
         if (OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger))
             {
-
+            OVRInput.SetControllerVibration(1.0f, 1f, OVRInput.Controller.LTouch);
             Debug.Log("HELP");
 
         }
