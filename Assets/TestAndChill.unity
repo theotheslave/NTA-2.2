@@ -3835,6 +3835,7 @@ GameObject:
   - component: {fileID: 607547750}
   - component: {fileID: 607547752}
   - component: {fileID: 607547751}
+  - component: {fileID: 607547753}
   m_Layer: 0
   m_Name: RightHandAnchor
   m_TagString: Untagged
@@ -3880,7 +3881,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 607547749}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0ecbd323cfb3224499cdf31b3df77a00, type: 3}
   m_Name: 
@@ -3892,6 +3893,28 @@ MonoBehaviour:
   projectSpeed: 5
   chargingParticles: {fileID: 1343785588}
   smoothingFactor: 0.1
+--- !u!114 &607547753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607547749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89c69eda9c3009547a4b1911a81a89b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  calibrationScript: {fileID: 607547751}
+  breathProject: {fileID: 2779364651442416312, guid: 8dd7b128a88a48e4db47ae4a68af6ea2, type: 3}
+  breathTarget: {fileID: 1110152951}
+  maxCharge: 5
+  projectSpeed: 5
+  projectchargeNew: 5
+  chargingParticles: {fileID: 1343785588}
+  smoothingFactor: 0.1
+  Timer: 0
+  timeDelay: 4
 --- !u!1001 &627976180
 PrefabInstance:
   m_ObjectHideFlags: 0

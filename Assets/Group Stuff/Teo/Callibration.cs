@@ -20,7 +20,7 @@ public class Calibration : MonoBehaviour
     void Update()
     {
         // Start calibration on button press
-        if (OVRInput.Get(OVRInput.Button.SecondaryIndexTrigger))
+        if (OVRInput.Get(OVRInput.Button.Two))
         {
             Debug.Log("Start Calibration");
             if (!isCalibrating)
@@ -51,7 +51,7 @@ public class Calibration : MonoBehaviour
         while (elapsedTime < calibrationDelay)
         {
             // If the trigger button is released, stop calibration
-            if (!OVRInput.Get(OVRInput.Button.SecondaryIndexTrigger))
+            if (!OVRInput.Get(OVRInput.Button.Two))
             {
                 ResetCalibrationUI();
                 yield break;

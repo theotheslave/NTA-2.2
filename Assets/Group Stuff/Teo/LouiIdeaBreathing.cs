@@ -1,15 +1,19 @@
 using UnityEngine;
 
-public class SmoothedYAxisScript : MonoBehaviour
+public class LouiIdeaBreathing : MonoBehaviour
 {
     [SerializeField] private Calibration calibrationScript;
     [SerializeField] private GameObject breathProject;
     [SerializeField] private Transform breathTarget;
     [SerializeField] private float maxCharge = 5f;
     [SerializeField] private float projectSpeed = 5f;
+    [SerializeField] private float projectchargeNew= 5f;
     [SerializeField] private ParticleSystem chargingParticles;
     [SerializeField] private float smoothingFactor = 0.1f; // Adjust for sensitivity
-  
+    [SerializeField] private float Timer = 0f;
+    [SerializeField] private float timeDelay = 4f;
+    private bool hasFired = false;
+    private bool shouldFire = false;
     private float chargeAmount = 0f;
     private bool isCharging = false;
     private float smoothedY = 0f;
@@ -26,17 +30,35 @@ public class SmoothedYAxisScript : MonoBehaviour
 
         Debug.Log($"Relative Y: {relativeY}, Smoothed Y: {smoothedY}");
 
-        if (smoothedY >= 0.7f) // Adjust the threshold based on the smoothed value
+        if (smoothedY >= 0.5f) // Adjust the threshold based on the smoothed value
         {
+            Timer += Time.deltaTime;
+            Debug.Log($"Timer : {Timer}");
             StartCharging();
+            if ( isCharging && Timer >= timeDelay && !hasFired )
+            {
+
+                Debug.Log("Lol");
+                FireProjectile();
+                hasFired = true;
+                shouldFire  = true;
+                
+            }
+
         }
-        else if (smoothedY <= 0.5f && isCharging)
-        {
-            FireProjectile();
-        }
+
         else
         {
+            // Reset states when below the threshold
+            Timer = 0f;
             StopCharging();
+
+            if (!hasFired)
+            {
+                shouldFire = false; // Allow charging again when user releases
+            }
+
+            hasFired = false; // Reset firing flag
         }
     }
 
@@ -55,11 +77,16 @@ public class SmoothedYAxisScript : MonoBehaviour
     private void StopCharging()
     {
         isCharging = false;
-        chargeAmount = 0f;
+        if (!hasFired)
+        {
+            chargeAmount = 0f;
+        }
+        
 
         if (chargingParticles.isPlaying)
         {
             chargingParticles.Stop();
+
         }
     }
 
@@ -74,7 +101,7 @@ public class SmoothedYAxisScript : MonoBehaviour
             Rigidbody rb = projectile.GetComponent<Rigidbody>();
             if (rb != null)
             {
-                float force = projectSpeed * chargeAmount;
+                float force = projectSpeed * projectchargeNew;
                 rb.linearVelocity = breathTarget.forward * force; // Corrected from `linearVelocity` to `velocity`
             }
 
