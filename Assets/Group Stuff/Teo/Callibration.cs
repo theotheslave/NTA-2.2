@@ -12,7 +12,7 @@ public class Calibration : MonoBehaviour
     public float calibrationDelay = 2f; // Duration for calibration
     [SerializeField] private Slider calibrationSlider; // Reference to the Slider UI
 
-    public bool IsCalibrated => isCalibrated; // Public property to check calibration status
+    public bool IsCalibrated => isCalibrated; 
     public float RelativeYPosition => transform.position.y - originPoint.y;
 
     private Coroutine calibrationCoroutine;
@@ -22,7 +22,7 @@ public class Calibration : MonoBehaviour
         // Start calibration on button press
         if (OVRInput.Get(OVRInput.Button.Two))
         {
-            Debug.Log("Start Calibration");
+           
             if (!isCalibrating)
             {
                 calibrationCoroutine = StartCoroutine(CalibrateOriginWithDelay());
