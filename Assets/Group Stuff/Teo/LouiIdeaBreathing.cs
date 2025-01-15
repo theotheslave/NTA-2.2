@@ -9,14 +9,14 @@ public class LouiIdeaBreathing : MonoBehaviour
     [SerializeField] private float projectSpeed = 5f;
     [SerializeField] private float projectchargeNew = 5f;
     [SerializeField] private ParticleSystem chargingParticles;
-    [SerializeField] private float smoothingFactor = 0.1f; // Adjust for sensitivity
+    [SerializeField] private float smoothingFactor = 0.1f;
     [SerializeField] private float timeDelay = 4f;
 
     private float Timer = 0f;
     private float chargeAmount = 0f;
     private bool isCharging = false;
     private bool hasFired = false;
-    private bool hasDroppedBelowThreshold = true; // Tracks if the Y-axis has dropped below the threshold
+    private bool hasDroppedBelowThreshold = true; 
     private float smoothedY = 0f;
 
     void Update()
@@ -26,12 +26,10 @@ public class LouiIdeaBreathing : MonoBehaviour
         float relativeY = calibrationScript.RelativeYPosition;
         float MultY = relativeY * 100f;
 
-        // Smooth the Y-axis value
         smoothedY = Mathf.Lerp(smoothedY, MultY, smoothingFactor);
 
         Debug.Log($"Relative Y: {relativeY}, Smoothed Y: {smoothedY}");
 
-        // Check if above the threshold and ready to charge
         if (smoothedY >= 0.5f && hasDroppedBelowThreshold)
         {
             Timer += Time.deltaTime;
@@ -42,20 +40,18 @@ public class LouiIdeaBreathing : MonoBehaviour
             {
                 FireProjectile();
                 hasFired = true;
-                hasDroppedBelowThreshold = false; // Prevent charging until threshold is dropped
+                hasDroppedBelowThreshold = false; 
             }
         }
         else
         {
-            // Reset states when below the threshold
             Timer = 0f;
             StopCharging();
 
-            // Allow charging again if below the threshold
             if (smoothedY < 0.5f)
             {
                 hasDroppedBelowThreshold = true;
-                hasFired = false; // Reset firing flag
+                hasFired = false; 
             }
         }
     }
@@ -94,11 +90,11 @@ public class LouiIdeaBreathing : MonoBehaviour
             if (rb != null)
             {
                 float force = projectSpeed * projectchargeNew;
-                rb.linearVelocity = breathTarget.forward * force; // Corrected to `velocity`
+                rb.linearVelocity = breathTarget.forward * force; 
             }
 
-            chargeAmount = 0f; // Reset charge after firing
-            StopCharging(); // Stop particles and effects after firing
+            chargeAmount = 0f; 
+            StopCharging(); 
         }
         else
         {
