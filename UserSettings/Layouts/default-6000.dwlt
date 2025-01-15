@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 101
+  controlID: 99
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -273,8 +273,8 @@ MonoBehaviour:
     y: 0
     width: 460
     height: 941
-  m_MinSize: {x: 276, y: 76}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -575,8 +575,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 305
-    y: 24
+    x: 304
+    y: 79
     width: 1154
     height: 637
   m_SerializedDataModeController:
@@ -1119,9 +1119,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 12.208123, y: 1.365211, z: -4.086958}
+    m_Target: {x: 10.9042015, y: 1.0205063, z: -4.334633}
     speed: 2
-    m_Value: {x: 12.208123, y: 1.365211, z: -4.086958}
+    m_Value: {x: 10.9042015, y: 1.0205063, z: -4.334633}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1167,13 +1167,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.15559842, y: 0.7720317, z: -0.20694695, w: -0.58047223}
+    m_Target: {x: -0.09096911, y: 0.75799894, z: -0.108285114, w: -0.63676983}
     speed: 2
-    m_Value: {x: -0.15559696, y: 0.77202445, z: -0.206945, w: -0.58046675}
+    m_Value: {x: -0.09096733, y: 0.7579841, z: -0.108283, w: -0.6367574}
   m_Size:
-    m_Target: 0.3041267
+    m_Target: 0.93271846
     speed: 2
-    m_Value: 0.3041267
+    m_Value: 0.93271846
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1326,7 +1326,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 24
+    y: 79
     width: 303
     height: 637
   m_SerializedDataModeController:
@@ -1345,7 +1345,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: cefaffff
+      m_ExpandedIDs: 98e2ffffc2faffff28d4000048d40000aed50000cad50000e2d6000074d800004cd900009ad90000f4d90000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1392,7 +1392,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 687
+    y: 742
     width: 1459
     height: 252
   m_SerializedDataModeController:
@@ -1417,7 +1417,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/dani stuff
+    - Assets
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1427,16 +1427,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/dani stuff
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Daniel\Desktop\vr game github\NTA-2.2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 63}
-    m_SelectedIDs: 82ea0000
-    m_LastClickedID: 60034
-    m_ExpandedIDs: 0000000080ea000082ea000084ea000086ea000088ea00008aea00008cea00008eea0000
+    m_SelectedIDs: 9cea0000
+    m_LastClickedID: 60060
+    m_ExpandedIDs: 000000009cea00009eea0000a0ea0000a2ea0000a4ea0000a6ea0000a8ea0000aaea000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1465,7 +1465,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000080ea000082ea000084ea000086ea000088ea00008aea00008cea00008eea0000
+    m_ExpandedIDs: 000000009cea00009eea0000a0ea0000a2ea0000a4ea0000a6ea0000a8ea0000aaea0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1519,7 +1519,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 47.5}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -1580,8 +1580,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1461
-    y: 24
+    x: 1460
+    y: 79
     width: 459
     height: 915
   m_SerializedDataModeController:
