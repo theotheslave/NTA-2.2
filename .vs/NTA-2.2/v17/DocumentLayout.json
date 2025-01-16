@@ -1,37 +1,39 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Uni stuff\\Block 2 year 2\\NTA-2.2\\",
+  "WorkspaceRootPath": "C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|d:\\uni stuff\\block 2 year 2\\nta-2.2\\assets\\group stuff\\teo\\newcentreball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|c:\\users\\teodo\\onedrive\\documents\\uni stuff\\nta-2.2\\assets\\group stuff\\dani\\dani stuff\\lotus\\smoothblendshapeanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|solutionrelative:assets\\group stuff\\dani\\dani stuff\\lotus\\smoothblendshapeanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\assets\\group stuff\\teo\\newcentreball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|solutionrelative:assets\\group stuff\\teo\\newcentreball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|D:\\Uni stuff\\Block 2 year 2\\NTA-2.2\\assets\\group stuff\\teo\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\assets\\group stuff\\teo\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|solutionrelative:assets\\group stuff\\teo\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|d:\\uni stuff\\block 2 year 2\\nta-2.2\\assets\\group stuff\\teo\\centretutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\assets\\group stuff\\teo\\centretutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|solutionrelative:assets\\group stuff\\teo\\centretutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|D:\\Uni stuff\\Block 2 year 2\\NTA-2.2\\assets\\group stuff\\teo\\callibration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\assets\\group stuff\\teo\\callibration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|solutionrelative:assets\\group stuff\\teo\\callibration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|D:\\Uni stuff\\Block 2 year 2\\NTA-2.2\\assets\\dani stuff\\ui 2nd try\\pausedblinkingopacity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|solutionrelative:assets\\dani stuff\\ui 2nd try\\pausedblinkingopacity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Daniel\\Desktop\\vr game github\\NTA-2.2\\Assets\\dani stuff\\Ui 2nd try\\AutoFillSlider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|D:\\Uni stuff\\Block 2 year 2\\NTA-2.2\\assets\\group stuff\\teo\\louiideabreathing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\assets\\group stuff\\teo\\louiideabreathing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|solutionrelative:assets\\group stuff\\teo\\louiideabreathing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|D:\\Uni stuff\\Block 2 year 2\\NTA-2.2\\assets\\dani stuff\\ui 2nd try\\multipanelandslidertransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|solutionrelative:assets\\dani stuff\\ui 2nd try\\multipanelandslidertransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Uni stuff\\Block 2 year 2\\NTA-2.2\\Assets\\dani stuff\\Ui 2nd try\\PausedBlinkingOpacity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Uni stuff\\Block 2 year 2\\NTA-2.2\\Assets\\dani stuff\\Ui 2nd try\\MultiPanelAndSliderTransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,54 +43,64 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "PausedBlinkingOpacity.cs",
               "DocumentMoniker": "D:\\Uni stuff\\Block 2 year 2\\NTA-2.2\\Assets\\dani stuff\\Ui 2nd try\\PausedBlinkingOpacity.cs",
-              "RelativeDocumentMoniker": "Assets\\dani stuff\\Ui 2nd try\\PausedBlinkingOpacity.cs",
               "ToolTip": "D:\\Uni stuff\\Block 2 year 2\\NTA-2.2\\Assets\\dani stuff\\Ui 2nd try\\PausedBlinkingOpacity.cs",
-              "RelativeToolTip": "Assets\\dani stuff\\Ui 2nd try\\PausedBlinkingOpacity.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAAwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-13T15:18:43.882Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "AutoFillSlider.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\Desktop\\vr game github\\NTA-2.2\\Assets\\dani stuff\\Ui 2nd try\\AutoFillSlider.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Daniel\\Desktop\\vr game github\\NTA-2.2\\Assets\\dani stuff\\Ui 2nd try\\AutoFillSlider.cs",
               "ToolTip": "C:\\Users\\Daniel\\Desktop\\vr game github\\NTA-2.2\\Assets\\dani stuff\\Ui 2nd try\\AutoFillSlider.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Daniel\\Desktop\\vr game github\\NTA-2.2\\Assets\\dani stuff\\Ui 2nd try\\AutoFillSlider.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAowDgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-14T00:22:11.155Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SmoothBlendShapeAnimator.cs",
+              "DocumentMoniker": "C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\Assets\\Group Stuff\\Dani\\dani stuff\\lotus\\SmoothBlendShapeAnimator.cs",
+              "RelativeDocumentMoniker": "Assets\\Group Stuff\\Dani\\dani stuff\\lotus\\SmoothBlendShapeAnimator.cs",
+              "ToolTip": "C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\Assets\\Group Stuff\\Dani\\dani stuff\\lotus\\SmoothBlendShapeAnimator.cs",
+              "RelativeToolTip": "Assets\\Group Stuff\\Dani\\dani stuff\\lotus\\SmoothBlendShapeAnimator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T12:58:21.499Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CentreTutorial.cs",
-              "DocumentMoniker": "D:\\Uni stuff\\Block 2 year 2\\NTA-2.2\\Assets\\Group Stuff\\Teo\\CentreTutorial.cs",
+              "DocumentMoniker": "C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\Assets\\Group Stuff\\Teo\\CentreTutorial.cs",
               "RelativeDocumentMoniker": "Assets\\Group Stuff\\Teo\\CentreTutorial.cs",
-              "ToolTip": "D:\\Uni stuff\\Block 2 year 2\\NTA-2.2\\Assets\\Group Stuff\\Teo\\CentreTutorial.cs",
+              "ToolTip": "C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\Assets\\Group Stuff\\Teo\\CentreTutorial.cs",
               "RelativeToolTip": "Assets\\Group Stuff\\Teo\\CentreTutorial.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T05:15:02.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T05:15:02.827Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "LouiIdeaBreathing.cs",
-              "DocumentMoniker": "D:\\Uni stuff\\Block 2 year 2\\NTA-2.2\\Assets\\Group Stuff\\Teo\\LouiIdeaBreathing.cs",
+              "DocumentMoniker": "C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\Assets\\Group Stuff\\Teo\\LouiIdeaBreathing.cs",
               "RelativeDocumentMoniker": "Assets\\Group Stuff\\Teo\\LouiIdeaBreathing.cs",
-              "ToolTip": "D:\\Uni stuff\\Block 2 year 2\\NTA-2.2\\Assets\\Group Stuff\\Teo\\LouiIdeaBreathing.cs",
+              "ToolTip": "C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\Assets\\Group Stuff\\Teo\\LouiIdeaBreathing.cs",
               "RelativeToolTip": "Assets\\Group Stuff\\Teo\\LouiIdeaBreathing.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAxwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -96,51 +108,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "NewCentreBall.cs",
-              "DocumentMoniker": "D:\\Uni stuff\\Block 2 year 2\\NTA-2.2\\Assets\\Group Stuff\\Teo\\NewCentreBall.cs",
+              "DocumentMoniker": "C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\Assets\\Group Stuff\\Teo\\NewCentreBall.cs",
               "RelativeDocumentMoniker": "Assets\\Group Stuff\\Teo\\NewCentreBall.cs",
-              "ToolTip": "D:\\Uni stuff\\Block 2 year 2\\NTA-2.2\\Assets\\Group Stuff\\Teo\\NewCentreBall.cs",
+              "ToolTip": "C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\Assets\\Group Stuff\\Teo\\NewCentreBall.cs",
               "RelativeToolTip": "Assets\\Group Stuff\\Teo\\NewCentreBall.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T05:03:02.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T05:03:02.466Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Movement.cs",
-              "DocumentMoniker": "D:\\Uni stuff\\Block 2 year 2\\NTA-2.2\\Assets\\Group Stuff\\Teo\\Movement.cs",
+              "DocumentMoniker": "C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\Assets\\Group Stuff\\Teo\\Movement.cs",
               "RelativeDocumentMoniker": "Assets\\Group Stuff\\Teo\\Movement.cs",
-              "ToolTip": "D:\\Uni stuff\\Block 2 year 2\\NTA-2.2\\Assets\\Group Stuff\\Teo\\Movement.cs",
+              "ToolTip": "C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\Assets\\Group Stuff\\Teo\\Movement.cs",
               "RelativeToolTip": "Assets\\Group Stuff\\Teo\\Movement.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAIAwwC4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T04:35:57.51Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T04:35:57.51Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Callibration.cs",
-              "DocumentMoniker": "D:\\Uni stuff\\Block 2 year 2\\NTA-2.2\\Assets\\Group Stuff\\Teo\\Callibration.cs",
+              "DocumentMoniker": "C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\Assets\\Group Stuff\\Teo\\Callibration.cs",
               "RelativeDocumentMoniker": "Assets\\Group Stuff\\Teo\\Callibration.cs",
-              "ToolTip": "D:\\Uni stuff\\Block 2 year 2\\NTA-2.2\\Assets\\Group Stuff\\Teo\\Callibration.cs",
+              "ToolTip": "C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\Assets\\Group Stuff\\Teo\\Callibration.cs",
               "RelativeToolTip": "Assets\\Group Stuff\\Teo\\Callibration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T04:35:50.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T04:35:50.239Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "MultiPanelAndSliderTransition.cs",
               "DocumentMoniker": "D:\\Uni stuff\\Block 2 year 2\\NTA-2.2\\Assets\\dani stuff\\Ui 2nd try\\MultiPanelAndSliderTransition.cs",
-              "RelativeDocumentMoniker": "Assets\\dani stuff\\Ui 2nd try\\MultiPanelAndSliderTransition.cs",
               "ToolTip": "D:\\Uni stuff\\Block 2 year 2\\NTA-2.2\\Assets\\dani stuff\\Ui 2nd try\\MultiPanelAndSliderTransition.cs",
-              "RelativeToolTip": "Assets\\dani stuff\\Ui 2nd try\\MultiPanelAndSliderTransition.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-14T15:05:34.924Z"
