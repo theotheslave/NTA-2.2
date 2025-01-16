@@ -5,7 +5,7 @@ public class Movement : MonoBehaviour
     [SerializeField] private Transform[] waypoints; 
     [SerializeField] private float moveSpeed = 2f;
     [SerializeField] private Calibration calibrationScript;
-
+    public GameObject calibSlider;
     private int currentWaypointIndex = 0; 
     private bool hasReachedEnd = false;
     private bool movementStarted = false;
@@ -17,7 +17,7 @@ public class Movement : MonoBehaviour
             if (calibrationScript != null) {
 
                 calibrationScript.DisableCalibration();
-            
+                calibSlider.SetActive(false);
             }
         
         }

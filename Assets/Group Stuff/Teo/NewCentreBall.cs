@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
+using System.Linq;
 
 public class NewCentreBall : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class NewCentreBall : MonoBehaviour
     [SerializeField] private float maxScale = 2f;          // Maximum scale for growth
     [SerializeField] private float growSpeed = 1f;         // Speed of growth
     [SerializeField] private List<GameObject> objectsToGrow; // Specific objects to grow
-
+    [SerializeField] private List<GameObject> particles;
     private Vector3 originalScale;                         // Original scale of the attractor
     private DesPos desPos;                                 // Reference to DesPos script
     private GameObject currentBall = null;                 // The ball currently being attracted
@@ -74,7 +75,7 @@ public class NewCentreBall : MonoBehaviour
                 ballRb.linearVelocity = Vector3.zero; // Stop the ball
                 ballRb.isKinematic = true;
                 TriggerGrowthOnSpecificObjects(); // Trigger specific objects to grow
-
+                ActivateParticles();
                 // Mark the attractor as centered in DesPos
                 if (desPos != null)
                 {
@@ -110,6 +111,17 @@ public class NewCentreBall : MonoBehaviour
                 StartCoroutine(ScaleObjectOverTime(obj, targetScale));
             }
         }
+    }
+
+    private void ActivateParticles()
+    {
+
+        foreach(GameObject obj in particles)
+        {
+
+            obj.SetActive(true);
+        }
+
     }
 
     private IEnumerator ScaleObjectOverTime(GameObject obj, Vector3 targetScale)
