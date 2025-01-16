@@ -36,7 +36,7 @@ public class SmoothBlendShapeAnimator : MonoBehaviour
 
         // Use SmoothStep for a smoother animation curve
         float smoothProgress = Mathf.SmoothStep(0, 1, progress);
-        float weight = Mathf.Lerp(0, 100, smoothProgress);
+        float weight = Mathf.Lerp(0, 80, smoothProgress);
 
         // Apply the weight to the blend shape
         skinnedMeshRenderer.SetBlendShapeWeight(blendShapeIndex, weight);

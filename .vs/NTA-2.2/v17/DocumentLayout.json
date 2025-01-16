@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Daniel\\Desktop\\vr game github\\NTA-2.2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|c:\\users\\daniel\\desktop\\vr game github\\nta-2.2\\assets\\group stuff\\dani\\dani stuff\\blendshapeanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|solutionrelative:assets\\group stuff\\dani\\dani stuff\\blendshapeanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|c:\\users\\daniel\\desktop\\vr game github\\nta-2.2\\assets\\group stuff\\dani\\dani stuff\\lotus\\blendshapeanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|solutionrelative:assets\\group stuff\\dani\\dani stuff\\lotus\\blendshapeanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Daniel\\Desktop\\vr game github\\NTA-2.2\\Assets\\Group Stuff\\Dani\\dani stuff\\BlendShapeAnimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Group Stuff\\Dani\\dani stuff\\BlendShapeAnimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Daniel\\Desktop\\vr game github\\NTA-2.2\\Assets\\dani stuff\\Ui 2nd try\\MultiPanelAndSliderTransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -84,18 +88,29 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "BlendShapeAnimator.cs",
-              "DocumentMoniker": "C:\\Users\\Daniel\\Desktop\\vr game github\\NTA-2.2\\Assets\\Group Stuff\\Dani\\dani stuff\\BlendShapeAnimator.cs",
-              "RelativeDocumentMoniker": "Assets\\Group Stuff\\Dani\\dani stuff\\BlendShapeAnimator.cs",
-              "ToolTip": "C:\\Users\\Daniel\\Desktop\\vr game github\\NTA-2.2\\Assets\\Group Stuff\\Dani\\dani stuff\\BlendShapeAnimator.cs",
-              "RelativeToolTip": "Assets\\Group Stuff\\Dani\\dani stuff\\BlendShapeAnimator.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAAwEEAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\Daniel\\Desktop\\vr game github\\NTA-2.2\\Assets\\Group Stuff\\Dani\\dani stuff\\lotus\\BlendShapeAnimator.cs",
+              "RelativeDocumentMoniker": "Assets\\Group Stuff\\Dani\\dani stuff\\lotus\\BlendShapeAnimator.cs",
+              "ToolTip": "C:\\Users\\Daniel\\Desktop\\vr game github\\NTA-2.2\\Assets\\Group Stuff\\Dani\\dani stuff\\lotus\\BlendShapeAnimator.cs",
+              "RelativeToolTip": "Assets\\Group Stuff\\Dani\\dani stuff\\lotus\\BlendShapeAnimator.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwCYAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T00:54:54.85Z",
+              "WhenOpened": "2025-01-16T12:37:22.445Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "BlendShapeAnimator.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\Desktop\\vr game github\\NTA-2.2\\Assets\\Group Stuff\\Dani\\dani stuff\\BlendShapeAnimator.cs",
+              "RelativeDocumentMoniker": "Assets\\Group Stuff\\Dani\\dani stuff\\BlendShapeAnimator.cs",
+              "ToolTip": "C:\\Users\\Daniel\\Desktop\\vr game github\\NTA-2.2\\Assets\\Group Stuff\\Dani\\dani stuff\\BlendShapeAnimator.cs",
+              "RelativeToolTip": "Assets\\Group Stuff\\Dani\\dani stuff\\BlendShapeAnimator.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T00:54:54.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MultiPanelAndSliderTransition.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\Desktop\\vr game github\\NTA-2.2\\Assets\\dani stuff\\Ui 2nd try\\MultiPanelAndSliderTransition.cs",
               "RelativeDocumentMoniker": "Assets\\dani stuff\\Ui 2nd try\\MultiPanelAndSliderTransition.cs",
@@ -106,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "CircleExpandVisualAid.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\Desktop\\vr game github\\NTA-2.2\\Assets\\dani stuff\\Ui 2nd try\\CircleExpandVisualAid.cs",
               "RelativeDocumentMoniker": "Assets\\dani stuff\\Ui 2nd try\\CircleExpandVisualAid.cs",
@@ -118,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "SliderAndPanelTransition.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\Desktop\\vr game github\\NTA-2.2\\Assets\\dani stuff\\Ui 2nd try\\SliderAndPanelTransition.cs",
               "RelativeDocumentMoniker": "Assets\\dani stuff\\Ui 2nd try\\SliderAndPanelTransition.cs",
@@ -130,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "SliderAndPanelControl.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\Desktop\\vr game github\\NTA-2.2\\Assets\\dani stuff\\Ui 2nd try\\SliderAndPanelControl.cs",
               "RelativeDocumentMoniker": "Assets\\dani stuff\\Ui 2nd try\\SliderAndPanelControl.cs",
@@ -142,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "PanelFadeOut.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\Desktop\\vr game github\\NTA-2.2\\Assets\\dani stuff\\Ui 2nd try\\PanelFadeOut.cs",
               "RelativeDocumentMoniker": "Assets\\dani stuff\\Ui 2nd try\\PanelFadeOut.cs",
@@ -154,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "AutoDecreaseSlider.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\Desktop\\vr game github\\NTA-2.2\\Assets\\dani stuff\\Ui 2nd try\\AutoDecreaseSlider.cs",
               "RelativeDocumentMoniker": "Assets\\dani stuff\\Ui 2nd try\\AutoDecreaseSlider.cs",
@@ -166,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "AutoFillSlider.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\Desktop\\vr game github\\NTA-2.2\\Assets\\dani stuff\\Ui 2nd try\\AutoFillSlider.cs",
               "RelativeDocumentMoniker": "Assets\\dani stuff\\Ui 2nd try\\AutoFillSlider.cs",
@@ -178,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "NewUnlitShader.shader",
               "DocumentMoniker": "C:\\Users\\Daniel\\Desktop\\vr game github\\NTA-2.2\\Assets\\dani stuff\\NewUnlitShader.shader",
               "RelativeDocumentMoniker": "Assets\\dani stuff\\NewUnlitShader.shader",
@@ -189,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "PausedBlinkingOpacity.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\Desktop\\vr game github\\NTA-2.2\\Assets\\dani stuff\\Ui 2nd try\\PausedBlinkingOpacity.cs",
               "RelativeDocumentMoniker": "Assets\\dani stuff\\Ui 2nd try\\PausedBlinkingOpacity.cs",
@@ -201,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "OpacityChangerr.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\Desktop\\vr game github\\NTA-2.2\\Assets\\dani stuff\\Ui 2nd try\\OpacityChangerr.cs",
               "RelativeDocumentMoniker": "Assets\\dani stuff\\Ui 2nd try\\OpacityChangerr.cs",
@@ -213,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "OpacityChanger.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\Desktop\\vr game github\\NTA-2.2\\Assets\\dani stuff\\Ui 2nd try\\OpacityChanger.cs",
               "RelativeDocumentMoniker": "Assets\\dani stuff\\Ui 2nd try\\OpacityChanger.cs",
@@ -225,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "CircleExpand.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\Desktop\\vr game github\\NTA-2.2\\Assets\\dani stuff\\Ui 2nd try\\CircleExpand.cs",
               "RelativeDocumentMoniker": "Assets\\dani stuff\\Ui 2nd try\\CircleExpand.cs",
@@ -237,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "BlinkingOpacity.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\Desktop\\vr game github\\NTA-2.2\\Assets\\dani stuff\\Ui 2nd try\\BlinkingOpacity.cs",
               "RelativeDocumentMoniker": "Assets\\dani stuff\\Ui 2nd try\\BlinkingOpacity.cs",
@@ -249,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "NewSurfaceShader.shader",
               "DocumentMoniker": "C:\\Users\\Daniel\\Desktop\\vr game github\\NTA-2.2\\Assets\\dani stuff\\NewSurfaceShader.shader",
               "RelativeDocumentMoniker": "Assets\\dani stuff\\NewSurfaceShader.shader",
@@ -260,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "GlowEffect.shader",
               "DocumentMoniker": "C:\\Users\\Daniel\\Desktop\\vr game github\\NTA-2.2\\Assets\\dani stuff\\GlowEffect.shader",
               "RelativeDocumentMoniker": "Assets\\dani stuff\\GlowEffect.shader",
@@ -272,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "GrowAndShrink.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\Desktop\\vr game github\\NTA-2.2\\Assets\\dani stuff\\GrowAndShrink.cs",
               "RelativeDocumentMoniker": "Assets\\dani stuff\\GrowAndShrink.cs",
