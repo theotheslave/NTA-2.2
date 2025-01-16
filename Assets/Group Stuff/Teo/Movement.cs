@@ -3,15 +3,24 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     [SerializeField] private Transform[] waypoints; 
-    [SerializeField] private float moveSpeed = 2f;  
-    
+    [SerializeField] private float moveSpeed = 2f;
+    [SerializeField] private Calibration calibrationScript;
 
     private int currentWaypointIndex = 0; 
     private bool hasReachedEnd = false;
+    private bool movementStarted = false;
     void Update()
     {
         if (hasReachedEnd || waypoints.Length == 0) return;
+        if (!movementStarted) { 
+        movementStarted = true;
+            if (calibrationScript != null) {
 
+                calibrationScript.DisableCalibration();
+            
+            }
+        
+        }
         
         Transform targetWaypoint = waypoints[currentWaypointIndex];
 

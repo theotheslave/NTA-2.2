@@ -8,10 +8,10 @@ public class Calibration : MonoBehaviour
     private Vector3 originPoint;
     private bool isCalibrated = false;
     private bool isCalibrating = false;
-
+    private bool canCalibrate = true;
     public float calibrationDelay = 2f; // Duration for calibration
     [SerializeField] private Slider calibrationSlider; // Reference to the Slider UI
-
+    public MultiSliderAndPanelTransition panelManager;
     public bool IsCalibrated => isCalibrated; 
     public float RelativeYPosition => transform.position.y - originPoint.y;
 
@@ -19,6 +19,10 @@ public class Calibration : MonoBehaviour
 
     void Update()
     {
+        if (!panelManager.AllPanelsComplete)
+        {
+            return; 
+        }
         // Start calibration on button press
         if (OVRInput.Get(OVRInput.Button.Two))
         {
@@ -43,7 +47,7 @@ public class Calibration : MonoBehaviour
     {
         isCalibrating = true;
 
-        // Reset the slider value
+        
         calibrationSlider.value = 0;
 
         float elapsedTime = 0f;
@@ -57,31 +61,43 @@ public class Calibration : MonoBehaviour
                 yield break;
             }
 
-            // Update the slider value
+           
             elapsedTime += Time.deltaTime;
-            calibrationSlider.value = elapsedTime / calibrationDelay; // Normalized value (0 to 1)
+            calibrationSlider.value = elapsedTime / calibrationDelay; 
             yield return null;
         }
 
-        // Set origin point
+        
         originPoint = transform.position;
         isCalibrated = true;
         isCalibrating = false;
 
 
-        // Ensure the slider is filled
+       
         calibrationSlider.value = 1;
 
         Debug.Log($"Origin calibrated at: {originPoint}");
 
-        // Optional: Add feedback after calibration is complete
-        OVRInput.SetControllerVibration(1f, 1f, OVRInput.Controller.RTouch); // Stop vibration
+        
+        OVRInput.SetControllerVibration(1f, 1f, OVRInput.Controller.RTouch); 
     }
 
     private void ResetCalibrationUI()
     {
         isCalibrating = false;
-        calibrationSlider.value = 0; // Reset the slider
+        calibrationSlider.value = 0; 
         Debug.Log("Calibration canceled.");
+    }
+
+
+    public void DisableCalibration()
+    {
+        canCalibrate = false;
+        if (isCalibrating && calibrationCoroutine != null)
+        {
+            StopCoroutine(calibrationCoroutine);
+            ResetCalibrationUI();
+        }
+        Debug.Log("Calibration disabled.");
     }
 }
