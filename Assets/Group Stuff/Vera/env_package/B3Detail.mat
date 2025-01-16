@@ -21,16 +21,16 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: B3Detail
-  m_Shader: {fileID: 10750, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: b0b4d9b7641b02f45a805c4a4ad9048a, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
+  m_ValidKeywords:
   - _SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2994
   stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
@@ -41,7 +41,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 10ba216639a85e946b54e49032277e68, type: 3}
+        m_Texture: {fileID: 2800000, guid: 39a67c2140011084dbe340877be10388, type: 3}
         m_Scale: {x: 1.02, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
