@@ -15,7 +15,7 @@ C:/Users/teodo/OneDrive/Documents/Uni Stuff/NTA-2.2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61942
+62954
 -job-worker-count
 5
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/teodo/OneDrive/Documents/Uni Stuff/NTA-2.2
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [27700]  Target information:
+Player connection [16464]  Target information:
 
-Player connection [27700]  * "[IP] 192.168.184.181 [Port] 0 [Flags] 2 [Guid] 2547200413 [EditorId] 2547200413 [Version] 1048832 [Id] WindowsEditor(7,Teo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [16464]  * "[IP] 10.51.36.175 [Port] 0 [Flags] 2 [Guid] 521530976 [EditorId] 521530976 [Version] 1048832 [Id] WindowsEditor(7,Teo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [27700] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [27700] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16464] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16464] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,9 +75,9 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 28.30 ms, found 13 plugins.
+Refreshing native plugins compatible for Editor in 28.03 ms, found 13 plugins.
 Unity memory allocator detected: MetaXRAudio native memory allocations will be tracked.
-Preloading 3 native plugins for Editor in 6.46 ms.
+Preloading 3 native plugins for Editor in 8.07 ms.
 Initialize engine version: 6000.0.28f1 (f336aca0cab5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/teodo/OneDrive/Documents/Uni Stuff/NTA-2.2/Assets
@@ -94,47 +94,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.010006 seconds.
-- Loaded All Assemblies, in  0.793 seconds
+Registered in 0.008051 seconds.
+- Loaded All Assemblies, in  0.949 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 650 ms
+Android Extension - Scanning For ADB Devices 566 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.626 seconds
-Domain Reload Profiling: 2413ms
-	BeginReloadAssembly (248ms)
+- Finished resetting the current domain, in  1.393 seconds
+Domain Reload Profiling: 2337ms
+	BeginReloadAssembly (362ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (76ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (106ms)
-	LoadAllAssembliesAndSetupDomain (334ms)
-		LoadAssemblies (242ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (100ms)
+	LoadAllAssembliesAndSetupDomain (383ms)
+		LoadAssemblies (357ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (328ms)
-			TypeCache.Refresh (326ms)
-				TypeCache.ScanAssembly (301ms)
+		AnalyzeDomain (373ms)
+			TypeCache.Refresh (371ms)
+				TypeCache.ScanAssembly (340ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1627ms)
+	FinalizeReload (1394ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1516ms)
+		SetupLoadedEditorAssemblies (1321ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (841ms)
+			InitializePlatformSupportModulesInManaged (762ms)
 			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (13ms)
-			ProcessInitializeOnLoadAttributes (418ms)
-			ProcessInitializeOnLoadMethodAttributes (202ms)
-			AfterProcessingInitializeOnLoad (35ms)
+			BeforeProcessingInitializeOnLoad (11ms)
+			ProcessInitializeOnLoadAttributes (363ms)
+			ProcessInitializeOnLoadMethodAttributes (171ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -143,536 +143,7 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  2.906 seconds
-Refreshing native plugins compatible for Editor in 25.94 ms, found 13 plugins.
+- Loaded All Assemblies, in  3.145 seconds
+Refreshing native plugins compatible for Editor in 18.53 ms, found 13 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
-Package Manager log level set to [2]
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 33.36 ms, found 13 plugins.
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    26    0    26    0     0     75      0 --:--:-- --:--:-- --:--:--    77
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00040] in .\Library\PackageCache\com.unity.xr.oculus\Runtime\OculusLoader.cs:307 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus\Runtime\OculusLoader.cs:292 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <5a8bfa4804234695888f9129fe33846c>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <5a8bfa4804234695888f9129fe33846c>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <5a8bfa4804234695888f9129fe33846c>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <45b9485b4ba64564b30d91e935218d54>:0 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  3.260 seconds
-Domain Reload Profiling: 6144ms
-	BeginReloadAssembly (800ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (61ms)
-	RebuildCommonClasses (76ms)
-	RebuildNativeTypeToScriptingClass (26ms)
-	initialDomainReloadingComplete (61ms)
-	LoadAllAssembliesAndSetupDomain (1919ms)
-		LoadAssemblies (984ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1151ms)
-			TypeCache.Refresh (775ms)
-				TypeCache.ScanAssembly (720ms)
-			BuildScriptInfoCaches (320ms)
-			ResolveRequiredComponents (48ms)
-	FinalizeReload (3261ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2636ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
-			SetLoadedEditorAssemblies (14ms)
-			BeforeProcessingInitializeOnLoad (309ms)
-			ProcessInitializeOnLoadAttributes (1843ms)
-			ProcessInitializeOnLoadMethodAttributes (422ms)
-			AfterProcessingInitializeOnLoad (22ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 36.36 ms, found 13 plugins.
-Preloading 3 native plugins for Editor in 0.39 ms.
-Unloading 279 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8308 unused Assets / (10.8 MB). Loaded Objects now: 9049.
-Memory consumption went from 243.8 MB to 233.0 MB.
-Total: 28.574100 ms (FindLiveObjects: 1.646800 ms CreateObjectMapping: 2.619500 ms MarkObjects: 14.377300 ms  DeleteObjects: 9.928900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 2133479.165286 seconds.
-  path: Assets/Group Stuff/Louisa/NEW MODELS/FLOWER/BLUE
-  artifactKey: Guid(c480761a564ffbf419b88f613a350c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/NEW MODELS/FLOWER/BLUE using Guid(c480761a564ffbf419b88f613a350c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '159abcf890dffb9188a16d7208395973') in 0.0136392 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Group Stuff/Louisa/NEW MODELS/FLOWER/FlowerPlant1.fbx
-  artifactKey: Guid(ffe0ca012712ee6449798b03fa79b811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/NEW MODELS/FLOWER/FlowerPlant1.fbx using Guid(ffe0ca012712ee6449798b03fa79b811) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c9045c720a05e4cdc0844b4a768475d') in 1.1140026 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 144
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Group Stuff/Louisa/NEW MODELS/FLOWER/PINK
-  artifactKey: Guid(f9ebf5b1bed4c7f4587e56c0cf1a5ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/NEW MODELS/FLOWER/PINK using Guid(f9ebf5b1bed4c7f4587e56c0cf1a5ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd997d04bb0e3005bc5500aa793d085c0') in 0.0022194 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/Group Stuff/Louisa/Louisa New Models/FlowerPlant1TR.fbx
-  artifactKey: Guid(05b32741474f38441b45bba0932c003e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/Louisa New Models/FlowerPlant1TR.fbx using Guid(05b32741474f38441b45bba0932c003e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1de7036cbc0076b0253f961e42c79a8') in 0.5489364 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 90
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002757 seconds.
-  path: Assets/Group Stuff/Louisa/Louisa New Models/mushroomflowerheadTR.fbx
-  artifactKey: Guid(09cd66a4f8127b047a659b0ab421917e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/Louisa New Models/mushroomflowerheadTR.fbx using Guid(09cd66a4f8127b047a659b0ab421917e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df8defbde8107a3ca61df5d9ba7a66ea') in 0.1423116 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001358 seconds.
-  path: Assets/Group Stuff/Louisa/Louisa New Models/LongPlantleavesTRfbx (1).fbx
-  artifactKey: Guid(5e82e6e3b8fa8924ba2925e32bc56b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/Louisa New Models/LongPlantleavesTRfbx (1).fbx using Guid(5e82e6e3b8fa8924ba2925e32bc56b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6813b81ef4419cf95f18e470afd15b12') in 0.1340588 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Group Stuff/Louisa/Louisa New Models/curledplanttTR.fbx
-  artifactKey: Guid(02697e1a02029a64aad94eaa1d9853fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/Louisa New Models/curledplanttTR.fbx using Guid(02697e1a02029a64aad94eaa1d9853fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '714e44196cfa4d4def9bf410ca37c827') in 0.0536111 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/Group Stuff/Louisa/NEW MODELS/FLOWER/FlowerPlant_PINK.prefab
-  artifactKey: Guid(8fee6b7d693354f449cc6fd147542baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/NEW MODELS/FLOWER/FlowerPlant_PINK.prefab using Guid(8fee6b7d693354f449cc6fd147542baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17a3fd70d63b71d91a98389c97800d1c') in 2.1145125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 287
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.855519 seconds.
-  path: Assets/Group Stuff/Louisa/NEW MODELS/CURLED PLANT/CurledPlant_BLUE.prefab
-  artifactKey: Guid(1999a7c998775e145ada2876fb435c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/NEW MODELS/CURLED PLANT/CurledPlant_BLUE.prefab using Guid(1999a7c998775e145ada2876fb435c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c6b4803185c0b9e980da78091233c95') in 0.5067911 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 105
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/Group Stuff/Louisa/NEW MODELS/CURLED PLANT/curledplantt.fbx
-  artifactKey: Guid(56e8dc0764cd7e04295d8d2a5c72755a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/NEW MODELS/CURLED PLANT/curledplantt.fbx using Guid(56e8dc0764cd7e04295d8d2a5c72755a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8d7b9d161265c4bf9262fdc4c2d361f') in 0.1166553 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.354455 seconds.
-  path: Assets/Group Stuff/Louisa/NEW MODELS/CURLED PLANT/PINK MATERIl
-  artifactKey: Guid(75b6e86feb0efcb48a3f59c08d0cb922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/NEW MODELS/CURLED PLANT/PINK MATERIl using Guid(75b6e86feb0efcb48a3f59c08d0cb922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a60f7e5d653e1947b73b7a11b548e14') in 0.0121211 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 53.957937 seconds.
-  path: Assets/Group Stuff/Louisa/NEW MODELS/TREEFLOWER/flowertree_PINK.prefab
-  artifactKey: Guid(3ae1030c60eec734c9caebec938744b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/NEW MODELS/TREEFLOWER/flowertree_PINK.prefab using Guid(3ae1030c60eec734c9caebec938744b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12f5d47c361f091be853e026217f0912') in 2.7714764 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 258
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  2.396 seconds
-Refreshing native plugins compatible for Editor in 30.73 ms, found 13 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 27.93 ms, found 13 plugins.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00040] in .\Library\PackageCache\com.unity.xr.oculus\Runtime\OculusLoader.cs:307 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus\Runtime\OculusLoader.cs:292 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <5a8bfa4804234695888f9129fe33846c>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <5a8bfa4804234695888f9129fe33846c>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <5a8bfa4804234695888f9129fe33846c>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <45b9485b4ba64564b30d91e935218d54>:0 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  2.912 seconds
-Domain Reload Profiling: 5291ms
-	BeginReloadAssembly (508ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (143ms)
-	RebuildCommonClasses (93ms)
-	RebuildNativeTypeToScriptingClass (36ms)
-	initialDomainReloadingComplete (81ms)
-	LoadAllAssembliesAndSetupDomain (1660ms)
-		LoadAssemblies (1073ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (825ms)
-			TypeCache.Refresh (17ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (745ms)
-			ResolveRequiredComponents (55ms)
-	FinalizeReload (2913ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2164ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (36ms)
-			SetLoadedEditorAssemblies (17ms)
-			BeforeProcessingInitializeOnLoad (367ms)
-			ProcessInitializeOnLoadAttributes (1346ms)
-			ProcessInitializeOnLoadMethodAttributes (370ms)
-			AfterProcessingInitializeOnLoad (27ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (22ms)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Refreshing native plugins compatible for Editor in 31.26 ms, found 13 plugins.
-Preloading 3 native plugins for Editor in 0.50 ms.
-Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8306 unused Assets / (10.7 MB). Loaded Objects now: 9098.
-Memory consumption went from 194.8 MB to 184.1 MB.
-Total: 32.838600 ms (FindLiveObjects: 4.962600 ms CreateObjectMapping: 2.499000 ms MarkObjects: 15.124200 ms  DeleteObjects: 10.249900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 169.227846 seconds.
-  path: Assets/dani stuff/lily/lily 2.fbx
-  artifactKey: Guid(aa769c7a1302ae940b97fd3a8961f4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/dani stuff/lily/lily 2.fbx using Guid(aa769c7a1302ae940b97fd3a8961f4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eff9e84c7743dfefdc97419f2766e4ae') in 0.3177185 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/dani stuff/lily/lily 2_DefaultMaterial_AlbedoTransparency.png
-  artifactKey: Guid(0f99683c1d547d6408c57f6d0e9e713b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/dani stuff/lily/lily 2_DefaultMaterial_AlbedoTransparency.png using Guid(0f99683c1d547d6408c57f6d0e9e713b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffaae450a0a17944db7ed2094df9aaea') in 0.1188237 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.646890 seconds.
-  path: Assets/dani stuff/leaf/leaf_DefaultMaterial_AlbedoTransparency.png
-  artifactKey: Guid(e70b609dbacf0ae428869def48b08d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/dani stuff/leaf/leaf_DefaultMaterial_AlbedoTransparency.png using Guid(e70b609dbacf0ae428869def48b08d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2eee0980faf32c0a3b9c3695c4400f0') in 0.0810611 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000558 seconds.
-  path: Assets/dani stuff/leaf/leaf_DefaultMaterial_MetallicSmoothness.png
-  artifactKey: Guid(4f6867adf6f397d4a8e4dc050600f7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/dani stuff/leaf/leaf_DefaultMaterial_MetallicSmoothness.png using Guid(4f6867adf6f397d4a8e4dc050600f7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c35c60428d30c9a99cc0286470aa34f2') in 0.0451168 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/dani stuff/leaf/leaf_DefaultMaterial_Normal.png
-  artifactKey: Guid(bad62dd31f2093e4e898b0a3563ebbf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/dani stuff/leaf/leaf_DefaultMaterial_Normal.png using Guid(bad62dd31f2093e4e898b0a3563ebbf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2eb0d66646d95e18bdac9af63a9486d') in 0.0693985 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/dani stuff/leaf/leaves.fbx
-  artifactKey: Guid(01df56dd63b15624d9e1f679a974f968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/dani stuff/leaf/leaves.fbx using Guid(01df56dd63b15624d9e1f679a974f968) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8689eec14591eb3a39e73e4b65fa271b') in 0.1345747 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.158866 seconds.
-  path: Assets/dani stuff/mushroom/below.mat
-  artifactKey: Guid(82d2b40ee696d2441828d833ef88ec63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/dani stuff/mushroom/below.mat using Guid(82d2b40ee696d2441828d833ef88ec63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25866acbc0166ac9af4cafaa8e05d60f') in 0.0905525 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/dani stuff/mushroom/New Material.mat
-  artifactKey: Guid(84cd10bd4bddf1440bb6107bcf8dd3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/dani stuff/mushroom/New Material.mat using Guid(84cd10bd4bddf1440bb6107bcf8dd3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81badfd901d3ebc5eed97cd80b0db19e') in 0.0181469 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 71.200091 seconds.
-  path: Assets/dani stuff/crystals/terrain.mat
-  artifactKey: Guid(6bf730bb1891f8f4aa77e589b5c6760d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/dani stuff/crystals/terrain.mat using Guid(6bf730bb1891f8f4aa77e589b5c6760d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5e3d5b68a0cc8269dedafb861f80905') in 0.0170047 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.440012 seconds.
-  path: Assets/Group Stuff/Louisa/PlantPrefabs/curledflower2purple.prefab
-  artifactKey: Guid(3f1391ff8e665cb469f183a65680dea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/PlantPrefabs/curledflower2purple.prefab using Guid(3f1391ff8e665cb469f183a65680dea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71b413534436f10cbdb269046b2f0e89') in 0.0258803 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 57
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005350 seconds.
-  path: Assets/Group Stuff/Louisa/PlantPrefabs/curledflowerplantPURPL.prefab
-  artifactKey: Guid(24c3ce89ef69744439087164a70dfc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/PlantPrefabs/curledflowerplantPURPL.prefab using Guid(24c3ce89ef69744439087164a70dfc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8f72ef00fa51c24b73552fa0476ef5b') in 0.0490863 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Group Stuff/Louisa/PlantPrefabs/muhsroom1blue.prefab
-  artifactKey: Guid(a3fab9d0bcbaf004d8ed94e2cab1925c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/PlantPrefabs/muhsroom1blue.prefab using Guid(a3fab9d0bcbaf004d8ed94e2cab1925c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ac38667119b5e509b0e613087f5b57e') in 0.0273396 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Group Stuff/Louisa/PlantPrefabs/plant1dark.prefab
-  artifactKey: Guid(c69004c8a187fb641ab9e24b7b2886f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/PlantPrefabs/plant1dark.prefab using Guid(c69004c8a187fb641ab9e24b7b2886f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7601331f4db008515abfcf057f4f8c0f') in 0.020611 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000641 seconds.
-  path: Assets/Group Stuff/Louisa/PlantPrefabs/muhsroom1purple.prefab
-  artifactKey: Guid(7491b4be822127944bc21e67febe8e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/PlantPrefabs/muhsroom1purple.prefab using Guid(7491b4be822127944bc21e67febe8e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33574234089839299c5b0dd0b2e1ef29') in 0.0239427 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/Group Stuff/Louisa/PlantPrefabs/flowertreepurple.prefab
-  artifactKey: Guid(18cc20754c48a0f43813b51bcc45a5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/PlantPrefabs/flowertreepurple.prefab using Guid(18cc20754c48a0f43813b51bcc45a5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60641e775253b8b2db6bc8fdd256ec86') in 0.0432597 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 208
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Group Stuff/Louisa/PlantPrefabs/tree2.prefab
-  artifactKey: Guid(89e893f96f5fc634e960f95211a9bb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/PlantPrefabs/tree2.prefab using Guid(89e893f96f5fc634e960f95211a9bb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eef21f52a145e3778b7cfd78ced95449') in 0.0359592 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 123
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.288788 seconds.
-  path: Assets/Group Stuff/Louisa/NEW MODELS/MUSHROOM FLOWER/FlowerMushroom_Pink.prefab
-  artifactKey: Guid(cf8c5f8ff2066dd418d9a32425af5da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/NEW MODELS/MUSHROOM FLOWER/FlowerMushroom_Pink.prefab using Guid(cf8c5f8ff2066dd418d9a32425af5da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdd55e43ab5ccb161e2ce0748072e9c6') in 1.130357 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.631606 seconds.
-  path: Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/LongPlant_PINK.prefab
-  artifactKey: Guid(b240c8c1330bc0f4ea32bd21ba6775d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/LongPlant_PINK.prefab using Guid(b240c8c1330bc0f4ea32bd21ba6775d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbd60b8d180e8ecf235fae91333e24b9') in 0.6176217 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 51
-
-========================================================================
-Received Import Request.
-  Time since last request: 242.610118 seconds.
-  path: Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/PINK MATERIAL/LongPlantleaves_downisde.003_MaskMap.png
-  artifactKey: Guid(e730acf1c106f5f41a9b9bab79243adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/PINK MATERIAL/LongPlantleaves_downisde.003_MaskMap.png using Guid(e730acf1c106f5f41a9b9bab79243adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'adee8574f3174537b2a13a8a418d46f3') in 0.1208757 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/PINK MATERIAL/LongPlantleaves_stem.002_Normal.png
-  artifactKey: Guid(d90f6c071390b644c8ba7241f2dff246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/PINK MATERIAL/LongPlantleaves_stem.002_Normal.png using Guid(d90f6c071390b644c8ba7241f2dff246) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94f248945be873f2d40da468d5e79fad') in 0.0483635 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/PINK MATERIAL/LongPlantleaves_LEAFSIDE.006_MaskMap.png
-  artifactKey: Guid(7b23eb7043321144288a9ac50ee234b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/PINK MATERIAL/LongPlantleaves_LEAFSIDE.006_MaskMap.png using Guid(7b23eb7043321144288a9ac50ee234b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0c7c3ff72da318413ed68daee43f2c6') in 0.0628356 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/PINK MATERIAL/PETALS SIDE.mat
-  artifactKey: Guid(c745eb97cc9570740848d0dbcf83a35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/PINK MATERIAL/PETALS SIDE.mat using Guid(c745eb97cc9570740848d0dbcf83a35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '280e3e239e5c0af6948b7014322ce03f') in 0.2165668 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/PINK MATERIAL/STEM.mat
-  artifactKey: Guid(95cca0bf08055b84bbb37adbddbd648d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/PINK MATERIAL/STEM.mat using Guid(95cca0bf08055b84bbb37adbddbd648d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5321de34b6841e2c065d6a7db719b618') in 0.125413 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/PINK MATERIAL/LongPlantleaves_stem.002_BaseMap.png
-  artifactKey: Guid(c122301ce3cfbc24e919dcd010fc69cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/PINK MATERIAL/LongPlantleaves_stem.002_BaseMap.png using Guid(c122301ce3cfbc24e919dcd010fc69cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea0ac4d47695090882bac08c6be61353') in 0.0930075 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/PINK MATERIAL/LongPlantleaves_stem.002_MaskMap.png
-  artifactKey: Guid(e9742279d188da04294949488a096b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/PINK MATERIAL/LongPlantleaves_stem.002_MaskMap.png using Guid(e9742279d188da04294949488a096b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b96db0ff51676abbf18b9ed7e34abe54') in 0.0515728 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/PINK MATERIAL/LongPlantleaves_upside.006_BaseMap.png
-  artifactKey: Guid(df2271d82576221439b7a484af9c15b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/PINK MATERIAL/LongPlantleaves_upside.006_BaseMap.png using Guid(df2271d82576221439b7a484af9c15b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db443bb1a5b832a7bceff44457ec7e73') in 0.1034781 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.241319 seconds.
-  path: Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/BLUE MATERIAL/LongPlantleaves_downisde.003_MaskMap.png
-  artifactKey: Guid(601d9fa7a79c0a845b761a147868abb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/BLUE MATERIAL/LongPlantleaves_downisde.003_MaskMap.png using Guid(601d9fa7a79c0a845b761a147868abb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3cba930e8262931b874ccd823776f13') in 0.068158 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/BLUE MATERIAL/LongPlantleaves_stem.002_Normal.png
-  artifactKey: Guid(34f0a7cc8efb6974a995a431af9d266d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/BLUE MATERIAL/LongPlantleaves_stem.002_Normal.png using Guid(34f0a7cc8efb6974a995a431af9d266d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b744b4503ba9385d73d620e03d8cb1c5') in 0.0525925 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/BLUE MATERIAL/LongPlantleaves_stem.002_MaskMap.png
-  artifactKey: Guid(436a992e2a249204294b40b332b737cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/BLUE MATERIAL/LongPlantleaves_stem.002_MaskMap.png using Guid(436a992e2a249204294b40b332b737cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5beb0e3dd370480e1ff337322eb8e3ab') in 0.0614506 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/BLUE MATERIAL/LongPlantleaves_LEAFSIDE.006_BaseMap.png
-  artifactKey: Guid(e6122944a63508443991eb0b69ff4a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/BLUE MATERIAL/LongPlantleaves_LEAFSIDE.006_BaseMap.png using Guid(e6122944a63508443991eb0b69ff4a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2256d4210579236c7704a65402eef239') in 0.0755249 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/BLUE MATERIAL/LongPlantleaves_stem.002_BaseMap.png
-  artifactKey: Guid(61c3ec9374a268648a5db22dbf15723f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/BLUE MATERIAL/LongPlantleaves_stem.002_BaseMap.png using Guid(61c3ec9374a268648a5db22dbf15723f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2079ffb380e8ab04b2fe2c80dc6b7f5') in 0.0523114 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/BLUE MATERIAL/STEM.mat
-  artifactKey: Guid(7f801e14a39393b469a08aed07ebc011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/BLUE MATERIAL/STEM.mat using Guid(7f801e14a39393b469a08aed07ebc011) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf32ba7f65004a5e9839213e73302144') in 0.0991254 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/BLUE MATERIAL/LongPlantleaves_upside.006_BaseMap.png
-  artifactKey: Guid(0ad616e3131eb1d41ad7e031b2867c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/BLUE MATERIAL/LongPlantleaves_upside.006_BaseMap.png using Guid(0ad616e3131eb1d41ad7e031b2867c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2c9fd5f4ca6e7bb4bc8763c290da791') in 0.0795165 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000684 seconds.
-  path: Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/BLUE MATERIAL/PETALS DOWNSIDE.mat
-  artifactKey: Guid(5750c2f9d22958241b7239aae32b239a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Group Stuff/Louisa/NEW MODELS/LONG PLANT/BLUE MATERIAL/PETALS DOWNSIDE.mat using Guid(5750c2f9d22958241b7239aae32b239a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35c75f15defc87a465bd4d035599eaed') in 0.1328949 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0

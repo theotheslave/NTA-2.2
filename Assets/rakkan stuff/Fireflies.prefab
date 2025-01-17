@@ -9,9 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5732330838114154295}
-  - component: {fileID: 1332201994630313458}
-  - component: {fileID: 6178048458151445865}
-  - component: {fileID: 8987103687196807024}
   - component: {fileID: 2397442320216693594}
   - component: {fileID: 3627772857213872773}
   m_Layer: 0
@@ -36,56 +33,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1332201994630313458
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2802564701123160657}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6178048458151445865
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2802564701123160657}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dad783f21532eea40bbf492f382598e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scaleMultiplier: {x: 2, y: 2, z: 2}
-  triggerDistance: 5
---- !u!114 &8987103687196807024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2802564701123160657}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7df9f3cda646da448816679f7ab62d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  particleStuff: {fileID: 0}
-  triggerRadius: 5
-  player: {fileID: 0}
 --- !u!198 &2397442320216693594
 ParticleSystem:
   m_ObjectHideFlags: 0

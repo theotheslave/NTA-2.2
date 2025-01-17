@@ -10,7 +10,7 @@ public class NewCentreBall : MonoBehaviour
     [SerializeField] private float maxScale = 2f;          // Maximum scale for growth
     [SerializeField] private float growSpeed = 1f;         // Speed of growth
     [SerializeField] private List<GameObject> objectsToGrow; // Specific objects to grow
-
+    [SerializeField] private List<GameObject> particles;
     private Vector3 originalScale;                         // Original scale of the attractor
     private DesPos desPos;                                 // Reference to DesPos script
     private GameObject currentBall = null;                 // The ball currently being attracted
@@ -74,7 +74,7 @@ public class NewCentreBall : MonoBehaviour
                 ballRb.linearVelocity = Vector3.zero; // Stop the ball
                 ballRb.isKinematic = true;
                 TriggerGrowthOnSpecificObjects(); // Trigger specific objects to grow
-
+                TriggerParticles();
                 // Mark the attractor as centered in DesPos
                 if (desPos != null)
                 {
@@ -83,6 +83,17 @@ public class NewCentreBall : MonoBehaviour
 
                 currentBall = null; // Clear the current ball reference to prevent reprocessing
             }
+        }
+    }
+    private void TriggerParticles()
+    {
+
+        foreach (GameObject obj in particles)
+        {
+
+            obj.SetActive(true);
+
+
         }
     }
 
