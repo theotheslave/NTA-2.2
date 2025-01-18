@@ -660,8 +660,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 513
-    y: 79
+    x: 1
+    y: 24
     width: 885
     height: 242
   m_SerializedDataModeController:
@@ -1228,7 +1228,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -1244,7 +1244,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -1254,7 +1254,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
     speed: 2
-    m_Value: {x: 0.7071067, y: 0.000002168314, z: -0.00000079247394, w: 0.7071069}
+    m_Value: {x: -0.7071068, y: 0, z: -0, w: -0.7071068}
   m_Size:
     m_Target: 36.91762
     speed: 2
@@ -1310,8 +1310,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 513
-    y: 347
+    x: 1
+    y: 292
     width: 885
     height: 687
   m_SerializedDataModeController:
@@ -1411,7 +1411,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 79
+    y: 24
     width: 512
     height: 422
   m_SerializedDataModeController:
@@ -1428,8 +1428,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: d0d70000
-      m_LastClickedID: 55248
+      m_SelectedIDs: 
+      m_LastClickedID: 0
       m_ExpandedIDs: deb3fcff2808feff24dcfeffc6e9ffff2cecffff32edffffa2efffffc8faffff62d40000e6d400005cd700009ed7000076d9000030db0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -1477,7 +1477,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 527
+    y: 472
     width: 512
     height: 507
   m_SerializedDataModeController:
@@ -1521,7 +1521,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 367c0100
     m_LastClickedID: 97334
-    m_ExpandedIDs: 00000000eef10000f0f10000f2f10000f4f10000f6f10000f8f10000faf10000fcf10000fef1000000f20000440e01004a0e010022cc010024cc010000ca9a3b
+    m_ExpandedIDs: 0000000010f1000012f1000014f1000016f1000018f100001af100001cf100001ef1000020f1000022f1000024f10000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1550,7 +1550,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000eef10000f0f10000f2f10000f4f10000f6f10000f8f10000faf10000fcf10000fef1000000f20000
+    m_ExpandedIDs: 0000000010f1000012f1000014f1000016f1000018f100001af100001cf100001ef1000020f1000022f1000024f10000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1582,18 +1582,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: FlowerMushroom_Pink
-      m_OriginalName: FlowerMushroom_Pink
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 56732
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 4}
@@ -1629,8 +1629,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Console\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1400
-    y: 1010
+    x: 1
+    y: 955
     width: 519
     height: 24
   m_SerializedDataModeController:
@@ -1665,8 +1665,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1400
-    y: 79
+    x: 1
+    y: 24
     width: 519
     height: 905
   m_SerializedDataModeController:
