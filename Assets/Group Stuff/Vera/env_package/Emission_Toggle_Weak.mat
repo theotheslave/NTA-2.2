@@ -23,9 +23,8 @@ Material:
   m_Name: Emission_Toggle_Weak
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_Parent: {fileID: 2100000, guid: 4e7810519a8735a45bbad9261d171852, type: 2}
-  m_ModifiedSerializedProperties: 0
+  m_ModifiedSerializedProperties: 2
   m_ValidKeywords:
-  - _EMISSION
   - _GLOSSYREFLECTIONS_OFF
   m_InvalidKeywords:
   - _SURFACE_TYPE_TRANSPARENT
@@ -46,6 +45,6 @@ Material:
     m_Floats: []
     m_Colors:
     - _BaseColor: {r: 1, g: 0.1273585, b: 0.8620265, a: 1}
-    - _Color: {r: 1, g: 0.12735847, b: 0.8620265, a: 1}
+    - _Color: {r: 0.76019025, g: 0.53333336, b: 0.8117647, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

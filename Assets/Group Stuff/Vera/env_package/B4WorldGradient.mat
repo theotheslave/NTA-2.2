@@ -100,8 +100,8 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _GradientEnd: 8.4
-    - _GradientStart: 96.8
+    - _GradientEnd: 6.9
+    - _GradientStart: 63
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
