@@ -101,7 +101,7 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _GradientEnd: 10
-    - _GradientStart: 30.03
+    - _GradientStart: 18.9
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005

@@ -27,7 +27,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _GradientEnd: 13.6
-    - _GradientStart: 64.4
+    - _GradientStart: 39.8
     m_Colors:
     - _SkyColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
