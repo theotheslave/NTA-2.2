@@ -1,18 +1,21 @@
+using NUnit.Framework;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class CentreTutorial : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed = 2f;        
-    [SerializeField] private float attractionRange = 5f;  
-    [SerializeField] private LayerMask ballLayer;         
-    [SerializeField] private GameObject movementObject;   
+    [SerializeField] private float moveSpeed = 2f;
+    [SerializeField] private float attractionRange = 5f;
+    [SerializeField] private LayerMask ballLayer;
+    [SerializeField] private GameObject movementObject;
+    [SerializeField] private List<GameObject> atractorsOther;
 
-    private GameObject currentBall = null;               
-    private DesPos desPos;                                
+    private GameObject currentBall = null;
+    private DesPos desPos;
 
     void Start()
     {
-       
+
         desPos = GetComponent<DesPos>();
         if (desPos == null)
         {
@@ -22,13 +25,13 @@ public class CentreTutorial : MonoBehaviour
 
     void Update()
     {
-       
+
         if (desPos != null && !desPos.CanCentre())
         {
-            return; 
+            return;
         }
 
-        
+
         if (currentBall == null)
         {
             Collider[] nearbyBalls = Physics.OverlapSphere(transform.position, attractionRange, ballLayer);
@@ -37,12 +40,12 @@ public class CentreTutorial : MonoBehaviour
                 if (col.CompareTag("Ball"))
                 {
                     currentBall = col.gameObject;
-                    break; 
+                    break;
                 }
             }
         }
 
-        
+
         if (currentBall != null)
         {
             MoveBallTowardsCenter(currentBall);
@@ -60,28 +63,37 @@ public class CentreTutorial : MonoBehaviour
 
             Debug.Log($"Moving Ball: {ball.name}, Current Position: {ball.transform.position}, Target Position: {transform.position}");
 
-            
+
             if (Vector3.Distance(ball.transform.position, transform.position) < 0.1f)
             {
-                ballRb.linearVelocity = Vector3.zero; 
+                ballRb.linearVelocity = Vector3.zero;
                 ballRb.isKinematic = true;
 
                 Debug.Log($"{ball.name} reached the center.");
+                ActivateAtractors();
 
-               
                 if (desPos != null)
                 {
                     desPos.Centred();
                 }
 
-               
+
                 StartMovement();
 
-                currentBall = null; 
+                currentBall = null;
             }
         }
     }
 
+
+    void ActivateAtractors()
+    {
+        foreach (GameObject atractors in atractorsOther)
+        {
+            atractors.SetActive(true);
+
+        }
+    }
     private void StartMovement()
     {
         if (movementObject == null)

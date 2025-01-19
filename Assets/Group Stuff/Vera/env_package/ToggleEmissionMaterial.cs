@@ -37,7 +37,7 @@ public class ToggleEmissionMaterial : MonoBehaviour
         }
     }
 
-    void ToggleEmission(bool enable)
+   public void ToggleEmission(bool enable)
     {
         // Handle primary material
         if (primaryMaterial != null && primaryMaterial.HasProperty("_EmissionColor"))

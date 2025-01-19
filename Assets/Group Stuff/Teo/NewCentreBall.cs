@@ -11,6 +11,8 @@ public class NewCentreBall : MonoBehaviour
     [SerializeField] private float growSpeed = 1f;         // Speed of growth
     [SerializeField] private List<GameObject> objectsToGrow; // Specific objects to grow
     [SerializeField] private List<GameObject> particles;
+    [SerializeField] private List<GameObject> emission;
+    private ToggleEmissionMaterial emissionToggle;
     private Vector3 originalScale;                         // Original scale of the attractor
     private DesPos desPos;                                 // Reference to DesPos script
     private GameObject currentBall = null;                 // The ball currently being attracted
@@ -75,6 +77,7 @@ public class NewCentreBall : MonoBehaviour
                 ballRb.isKinematic = true;
                 TriggerGrowthOnSpecificObjects(); // Trigger specific objects to grow
                 TriggerParticles();
+                EmissionToggle();
                 // Mark the attractor as centered in DesPos
                 if (desPos != null)
                 {
@@ -82,6 +85,26 @@ public class NewCentreBall : MonoBehaviour
                 }
 
                 currentBall = null; // Clear the current ball reference to prevent reprocessing
+            }
+        }
+    }
+
+
+   void  EmissionToggle()
+    {
+        foreach (GameObject light in emission)
+        {
+            if (light != null) {
+
+                var emissionToggle = light.GetComponent<ToggleEmissionMaterial>();
+
+                if (emissionToggle != null) {
+
+                    emissionToggle.ToggleEmission(true);
+
+                }
+
+
             }
         }
     }

@@ -22,7 +22,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Emission_Toggle_Weak
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_Parent: {fileID: 2100000, guid: 4e7810519a8735a45bbad9261d171852, type: 2}
+  m_Parent: {fileID: 2100000, guid: 13f296386ed232147a3f4f4cc18f5a0c, type: 2}
   m_ModifiedSerializedProperties: 2
   m_ValidKeywords:
   - _GLOSSYREFLECTIONS_OFF
@@ -46,5 +46,6 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 0.1273585, b: 0.8620265, a: 1}
     - _Color: {r: 0.054957304, g: 0.5690662, b: 0.8962264, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

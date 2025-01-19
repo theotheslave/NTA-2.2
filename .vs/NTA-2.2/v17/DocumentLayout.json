@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\assets\\group stuff\\teo\\centretutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|solutionrelative:assets\\group stuff\\teo\\centretutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\assets\\group stuff\\teo\\newcentreball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|solutionrelative:assets\\group stuff\\teo\\newcentreball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|c:\\users\\teodo\\onedrive\\documents\\uni stuff\\nta-2.2\\assets\\group stuff\\vera\\env_package\\toggleemissionmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|solutionrelative:assets\\group stuff\\vera\\env_package\\toggleemissionmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|c:\\users\\teodo\\onedrive\\documents\\uni stuff\\nta-2.2\\assets\\group stuff\\vera\\env_package\\worldgradient.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "AbsoluteMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\assets\\group stuff\\vera\\env_package\\worldgradient.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|solutionrelative:assets\\group stuff\\vera\\env_package\\worldgradient.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\assets\\group stuff\\teo\\louiideabreathing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|solutionrelative:assets\\group stuff\\teo\\louiideabreathing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\assets\\group stuff\\teo\\newcentreball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|solutionrelative:assets\\group stuff\\teo\\newcentreball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\assets\\group stuff\\dani\\dani stuff\\lotus\\smoothblendshapeanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\assets\\group stuff\\teo\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|solutionrelative:assets\\group stuff\\teo\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\assets\\group stuff\\teo\\centretutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|solutionrelative:assets\\group stuff\\teo\\centretutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0B3C639-D80A-4A48-FD9F-FADA0486B280}|Assembly-CSharp.csproj|C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\assets\\group stuff\\teo\\callibration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,7 +51,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -79,33 +79,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ToggleEmissionMaterial.cs",
               "DocumentMoniker": "C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\Assets\\Group Stuff\\Vera\\env_package\\ToggleEmissionMaterial.cs",
               "RelativeDocumentMoniker": "Assets\\Group Stuff\\Vera\\env_package\\ToggleEmissionMaterial.cs",
               "ToolTip": "C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\Assets\\Group Stuff\\Vera\\env_package\\ToggleEmissionMaterial.cs",
               "RelativeToolTip": "Assets\\Group Stuff\\Vera\\env_package\\ToggleEmissionMaterial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwDUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-16T15:41:45.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WorldGradient.shader",
-              "DocumentMoniker": "C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\Assets\\Group Stuff\\Vera\\env_package\\WorldGradient.shader",
-              "RelativeDocumentMoniker": "Assets\\Group Stuff\\Vera\\env_package\\WorldGradient.shader",
-              "ToolTip": "C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\Assets\\Group Stuff\\Vera\\env_package\\WorldGradient.shader",
-              "RelativeToolTip": "Assets\\Group Stuff\\Vera\\env_package\\WorldGradient.shader",
-              "ViewState": "AgIAABQAAAAAAAAAAAAxwCcAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2025-01-16T14:58:15.774Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "SmoothBlendShapeAnimator.cs",
               "DocumentMoniker": "C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\Assets\\Group Stuff\\Dani\\dani stuff\\lotus\\SmoothBlendShapeAnimator.cs",
               "RelativeDocumentMoniker": "Assets\\Group Stuff\\Dani\\dani stuff\\lotus\\SmoothBlendShapeAnimator.cs",
@@ -117,19 +104,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "CentreTutorial.cs",
               "DocumentMoniker": "C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\Assets\\Group Stuff\\Teo\\CentreTutorial.cs",
               "RelativeDocumentMoniker": "Assets\\Group Stuff\\Teo\\CentreTutorial.cs",
               "ToolTip": "C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\Assets\\Group Stuff\\Teo\\CentreTutorial.cs",
               "RelativeToolTip": "Assets\\Group Stuff\\Teo\\CentreTutorial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T05:15:02.827Z"
+              "WhenOpened": "2025-01-16T05:15:02.827Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "NewCentreBall.cs",
+              "DocumentMoniker": "C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\Assets\\Group Stuff\\Teo\\NewCentreBall.cs",
+              "RelativeDocumentMoniker": "Assets\\Group Stuff\\Teo\\NewCentreBall.cs",
+              "ToolTip": "C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\Assets\\Group Stuff\\Teo\\NewCentreBall.cs",
+              "RelativeToolTip": "Assets\\Group Stuff\\Teo\\NewCentreBall.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T05:03:02.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WorldGradient.shader",
+              "DocumentMoniker": "C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\Assets\\Group Stuff\\Vera\\env_package\\WorldGradient.shader",
+              "RelativeDocumentMoniker": "Assets\\Group Stuff\\Vera\\env_package\\WorldGradient.shader",
+              "ToolTip": "C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\Assets\\Group Stuff\\Vera\\env_package\\WorldGradient.shader",
+              "RelativeToolTip": "Assets\\Group Stuff\\Vera\\env_package\\WorldGradient.shader",
+              "ViewState": "AgIAABQAAAAAAAAAAAAxwCcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-01-16T14:58:15.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "LouiIdeaBreathing.cs",
               "DocumentMoniker": "C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\Assets\\Group Stuff\\Teo\\LouiIdeaBreathing.cs",
               "RelativeDocumentMoniker": "Assets\\Group Stuff\\Teo\\LouiIdeaBreathing.cs",
@@ -141,19 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NewCentreBall.cs",
-              "DocumentMoniker": "C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\Assets\\Group Stuff\\Teo\\NewCentreBall.cs",
-              "RelativeDocumentMoniker": "Assets\\Group Stuff\\Teo\\NewCentreBall.cs",
-              "ToolTip": "C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\Assets\\Group Stuff\\Teo\\NewCentreBall.cs",
-              "RelativeToolTip": "Assets\\Group Stuff\\Teo\\NewCentreBall.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAgwF0AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T05:03:02.466Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Movement.cs",
               "DocumentMoniker": "C:\\Users\\teodo\\OneDrive\\Documents\\Uni Stuff\\NTA-2.2\\Assets\\Group Stuff\\Teo\\Movement.cs",
               "RelativeDocumentMoniker": "Assets\\Group Stuff\\Teo\\Movement.cs",
