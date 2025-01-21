@@ -5,10 +5,11 @@ public class Movement : MonoBehaviour
     [SerializeField] private Transform[] waypoints; 
     [SerializeField] private float moveSpeed = 2f;
     [SerializeField] private Calibration calibrationScript;
-
+    [SerializeField] private EndScreen endScreenManager;
     private int currentWaypointIndex = 0; 
     private bool hasReachedEnd = false;
     private bool movementStarted = false;
+    private bool endScreenTriggered = false;
     void Update()
     {
         if (hasReachedEnd || waypoints.Length == 0) return;
@@ -41,6 +42,13 @@ public class Movement : MonoBehaviour
                 hasReachedEnd = true;
                 Debug.Log("Reached the end of the path.");
             }
+        }
+        if (hasReachedEnd && !endScreenTriggered)
+        {
+            endScreenTriggered = true;
+
+            // Assuming you have an instance of EndScreenManagerVR
+            endScreenManager.TriggerEndScreen();
         }
     }
 

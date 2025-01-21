@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: OculusSettings
   m_EditorClassIdentifier: 
   m_StereoRenderingModeDesktop: 0
-  m_StereoRenderingModeAndroid: 0
+  m_StereoRenderingModeAndroid: 2
   SharedDepthBuffer: 1
   DepthSubmission: 0
   DashSupport: 1
@@ -22,7 +22,7 @@ MonoBehaviour:
   PhaseSync: 1
   SymmetricProjection: 1
   SubsampledLayout: 1
-  FoveatedRenderingMethod: 0
+  FoveatedRenderingMethod: 2
   LateLatching: 0
   LateLatchingDebug: 0
   EnableTrackingOriginStageMode: 0

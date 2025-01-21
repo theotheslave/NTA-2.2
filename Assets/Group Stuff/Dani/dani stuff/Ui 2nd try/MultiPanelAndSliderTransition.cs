@@ -1,6 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+using Oculus.Interaction;
+using Oculus.Interaction.Input;
+using UnityEngine.Events;
 public class MultiSliderAndPanelTransition : MonoBehaviour
 {
     [Header("References")]
@@ -24,10 +27,11 @@ public class MultiSliderAndPanelTransition : MonoBehaviour
             sliders[i].gameObject.SetActive(false); // Hide all sliders initially
         }
 
-        if (breathUI != null) { 
-        
+        if (breathUI != null)
+        {
+
             breathUI.SetActive(false);
-        
+
         }
 
         // Start the process for the first panel
@@ -36,15 +40,16 @@ public class MultiSliderAndPanelTransition : MonoBehaviour
 
     void StartPanelTransition(int panelIndex)
     {
-        if (panelIndex >= panelTransforms.Length) {
+        if (panelIndex >= panelTransforms.Length)
+        {
 
             AllPanelsComplete = true;
 
 
             return;
-                
-                
-           } // Safety check for array bounds
+
+
+        } // Safety check for array bounds
 
         // Activate and expand the current panel
         panelTransforms[panelIndex].gameObject.SetActive(true);
@@ -55,10 +60,11 @@ public class MultiSliderAndPanelTransition : MonoBehaviour
         {
 
 
-            if (panelIndex == 2) { 
-            
+            if (panelIndex == 2)
+            {
+
                 breathUI.SetActive(true);
-            
+
             }
             // Decrease the slider over its configured time
             LeanTween.value(gameObject, 1.0f, 0.0f, sliderDecreaseTimes[panelIndex])
