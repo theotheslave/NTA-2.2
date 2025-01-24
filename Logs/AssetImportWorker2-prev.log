@@ -1,0 +1,394 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.28f1 (f336aca0cab5) revision 15939244'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32693 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.28f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Uni stuff/Block 2 year 2/NTA-2.2
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50998
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: D:/Uni stuff/Block 2 year 2/NTA-2.2
+D:/Uni stuff/Block 2 year 2/NTA-2.2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [35004]  Target information:
+
+Player connection [35004]  * "[IP] 192.168.2.9 [Port] 0 [Flags] 2 [Guid] 3543242974 [EditorId] 3543242974 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NB4P73Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [35004] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [35004] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 10.38 ms, found 13 plugins.
+Unity memory allocator detected: MetaXRAudio native memory allocations will be tracked.
+Preloading 3 native plugins for Editor in 2.52 ms.
+Initialize engine version: 6000.0.28f1 (f336aca0cab5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Uni stuff/Block 2 year 2/NTA-2.2/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
+    Vendor:   NVIDIA
+    VRAM:     10053 MB
+    Driver:   32.0.15.6590
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004477 seconds.
+- Loaded All Assemblies, in  0.340 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 270 ms
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.600 seconds
+Domain Reload Profiling: 937ms
+	BeginReloadAssembly (113ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (141ms)
+		LoadAssemblies (111ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (137ms)
+				TypeCache.ScanAssembly (125ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (600ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (552ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (361ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.033 seconds
+Refreshing native plugins compatible for Editor in 7.39 ms, found 13 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 7.42 ms, found 13 plugins.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    26    0    26    0     0    159      0 --:--:-- --:--:-- --:--:--   161
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00040] in .\Library\PackageCache\com.unity.xr.oculus\Runtime\OculusLoader.cs:307 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus\Runtime\OculusLoader.cs:292 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <5a8bfa4804234695888f9129fe33846c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <5a8bfa4804234695888f9129fe33846c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <5a8bfa4804234695888f9129fe33846c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <45b9485b4ba64564b30d91e935218d54>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.072 seconds
+Domain Reload Profiling: 2102ms
+	BeginReloadAssembly (337ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (628ms)
+		LoadAssemblies (383ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (330ms)
+			TypeCache.Refresh (225ms)
+				TypeCache.ScanAssembly (205ms)
+			BuildScriptInfoCaches (85ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1073ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (852ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (606ms)
+			ProcessInitializeOnLoadMethodAttributes (128ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 8.00 ms, found 13 plugins.
+Preloading 3 native plugins for Editor in 0.07 ms.
+Unloading 279 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8307 unused Assets / (10.1 MB). Loaded Objects now: 9063.
+Memory consumption went from 256.9 MB to 246.8 MB.
+Total: 13.422200 ms (FindLiveObjects: 1.027500 ms CreateObjectMapping: 1.121500 ms MarkObjects: 6.686300 ms  DeleteObjects: 4.586200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 256519.253161 seconds.
+  path: Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-18.png
+  artifactKey: Guid(c8a58470655315343831d9c3ce2c5d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-18.png using Guid(c8a58470655315343831d9c3ce2c5d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0dd9e2601ffe883b0ea4c1ba8cfbfd12') in 0.1020751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002758 seconds.
+  path: Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-27.png
+  artifactKey: Guid(4d5be2bc56489dd4aacccaf518df7542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-27.png using Guid(4d5be2bc56489dd4aacccaf518df7542) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88094ddb5f4c3df0a601a02debd5fe1c') in 0.0302192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-29.png
+  artifactKey: Guid(7868adf9b688631498b1c29fc780121b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-29.png using Guid(7868adf9b688631498b1c29fc780121b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d4b29dd8561c7dccb1c93018d3a3e1f') in 0.0212879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-33.png
+  artifactKey: Guid(9da8787efa216ce4aad8b854a847758c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-33.png using Guid(9da8787efa216ce4aad8b854a847758c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '218e3229842acec4551a9896bab793a7') in 0.0210233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-34.png
+  artifactKey: Guid(2352edb2824da084886a760a2af1e5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-34.png using Guid(2352edb2824da084886a760a2af1e5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81905c3474f42466d2cbe3a9b4ccb33b') in 0.024438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.220047 seconds.
+  path: Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-37.png
+  artifactKey: Guid(9f6d1ad867874e04c9d9e8963acbb672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-37.png using Guid(9f6d1ad867874e04c9d9e8963acbb672) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a63406b4080f81ddfb4c5b5a04f9c289') in 0.025613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-40.png
+  artifactKey: Guid(0ef39d8f06c27a444b8a0491190e6f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-40.png using Guid(0ef39d8f06c27a444b8a0491190e6f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '858b9e423feb9e85c03b91fd4a7a9b5c') in 0.0198714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-43.png
+  artifactKey: Guid(fac96788086a7594a9b57ec32ff092e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-43.png using Guid(fac96788086a7594a9b57ec32ff092e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0114e1a50b8c8a153fa1fa723f5902b0') in 0.0238812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-46.png
+  artifactKey: Guid(356eb6948d96ebc4ebd90bd17905769b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-46.png using Guid(356eb6948d96ebc4ebd90bd17905769b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e29dccb189b9765920a36d429f91454') in 0.0196417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-48.png
+  artifactKey: Guid(2fe3ba4f287e0a24385ba01501b7e33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-48.png using Guid(2fe3ba4f287e0a24385ba01501b7e33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a750fb4eb2fcf2ab77f7bc0e4647cf8') in 0.019963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-54.png
+  artifactKey: Guid(5f4e0f44c7f425c468213082105cd726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-54.png using Guid(5f4e0f44c7f425c468213082105cd726) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd61908150975317f1a9bd293cce104a0') in 0.020394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002671 seconds.
+  path: Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-55.png
+  artifactKey: Guid(fd793616b4d5e254591c202ab7f8058f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-55.png using Guid(fd793616b4d5e254591c202ab7f8058f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49469381bb517b696043a7b88cc20e16') in 0.0239888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-57.png
+  artifactKey: Guid(5e95ea50678d2ed4cb84ea8e4396312a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-57.png using Guid(5e95ea50678d2ed4cb84ea8e4396312a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd623414a5949ad7ece930f3089569961') in 0.0265063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-59.png
+  artifactKey: Guid(1b5cbdf78054e674d912d60d69329a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-59.png using Guid(1b5cbdf78054e674d912d60d69329a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4770dfb892d060a44e9a9a6c3a7d118') in 0.0232206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.805588 seconds.
+  path: Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-61.png
+  artifactKey: Guid(11a6b0b2cba5c9d4d922b8d744fbffa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-61.png using Guid(11a6b0b2cba5c9d4d922b8d744fbffa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3b88748565db871ec62c54dbe8948ec') in 0.024554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.327385 seconds.
+  path: Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-64.png
+  artifactKey: Guid(7f105e7ebc6c07f4f9843ad6c8ea8771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-64.png using Guid(7f105e7ebc6c07f4f9843ad6c8ea8771) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b89354dafe548e1f461b9c65d26865d9') in 0.0190969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008864 seconds.
+  path: Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-68.png
+  artifactKey: Guid(fe247ee175d63e54384f8c99c8a9f622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-68.png using Guid(fe247ee175d63e54384f8c99c8a9f622) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '781f6e1a94d3ac7c8278415f8debeb5f') in 0.0213503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-71.png
+  artifactKey: Guid(0567c7f5ca5d98a46850314785cba6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-71.png using Guid(0567c7f5ca5d98a46850314785cba6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '017a3a938c3e801ec432294d8836f529') in 0.0246256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006213 seconds.
+  path: Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-74.png
+  artifactKey: Guid(c8fb2e8c72030ab42a3cf96619d21221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/gif/controllertutorialgif-74.png using Guid(c8fb2e8c72030ab42a3cf96619d21221) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0664004689389be797fef7e5ed3f0567') in 0.0181297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002724 seconds.
+  path: Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/Inhalepng.png
+  artifactKey: Guid(f7a16dc47e7580a4d8f32a4632f0584c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Group Stuff/Dani/dani stuff/Ui 2nd try/Inhalepng.png using Guid(f7a16dc47e7580a4d8f32a4632f0584c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b5888e1bfa623c42b39dd0e6bebce18') in 0.0284124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

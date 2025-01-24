@@ -9,6 +9,7 @@ public class EndScreen : MonoBehaviour
     [SerializeField] private float fadeDuration = 2f; // Duration of the fade effect
     [SerializeField] private float messageDisplayDuration = 3f; // How long the message stays visible
     [SerializeField] private GameObject UI;
+    [SerializeField] private GameObject Particles;
     private Transform vrCamera; // Reference to the VR camera
     private bool isTransitioning = false;
 
@@ -25,11 +26,12 @@ public class EndScreen : MonoBehaviour
     public void TriggerEndScreen()
     {
 
-        UI.SetActive(false);
+        
         if (!isTransitioning)
         {
             isTransitioning = true;
-
+            UI.SetActive(false);
+            Particles.SetActive(false);
             // Position the canvas in front of the VR user
             PositionCanvasInFrontOfUser();
 
